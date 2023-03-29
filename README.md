@@ -1,24 +1,3 @@
-<style>
-  body {
-    font-size: 8pt;
-    text-align: justify;
-  }
-  td img {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-  }
-  td, th {
-    border: none;
-    padding: ;
-  }
-  table {
-    border-collapse: collapse;
-  }
-
-</style>
 # Projeto Integrado DSM Primeiro Semestre 2023
 
 O objetivo deste projeto é coletar e analisar dados relacionados à Covid Longa a partir do sistema Datasus (Tabnet), com o intuito de avaliar o impacto do "pós-pandemia" no Sistema Único de Saúde. Focando nas cidades do Vale do Paraíba - São José dos Campos, Jacareí e Taubaté - a análise destes dados pode gerar resultados relevantes para futuras reportagens jornalísticas, tanto em nível regional quanto estadual e nacional.
@@ -34,7 +13,7 @@ O objetivo deste projeto é coletar e analisar dados relacionados à Covid Longa
 | ![Foto do Marcus](https://avatars.githubusercontent.com/u/73323386?v=4) | Marcus | Desenvolvedor | [www.github.com/marcusvbe](www.github.com/marcusvbe) |
 | ![Foto da Maria Gabriela](https://avatars.githubusercontent.com/u/127119599?v=4) | Maria Gabriela | Desenvolvedor | [www.github.com/MariaGabrielaMello](www.github.com/MariaGabrielaMello) | - | [www.linkedin.com/membro6](www.linkedin.com/membro6) |
 | ![Foto do Vitor](https://avatars.githubusercontent.com/u/126176980?v=4) | Vitor Leandro| Scrum Master | [www.github.com/haikizinho](www.github.com/haikizinho) |
-| ![Foto do Rodrigo Augusto](https://avatars.githubusercontent.com/u/34490697?v=4&s=20&border-radius=50%) | Rodrigo Augusto | Scrum Master | [www.linkedin.com/rodrigo](www.linkedin.com/rodrigo) |
+| ![Foto do Rodrigo Augusto](https://avatars.githubusercontent.com/u/34490697?v=4) | Rodrigo Augusto | Desenvolvedor | [www.linkedin.com/rodrigo](www.linkedin.com/rodrigo) |
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/1588/1588199.png" alt="Ícone de Requerimentos" width="30" height="30" style="vertical-align: middle; filter: invert(100%);"> Requerimentos
 
