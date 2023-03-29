@@ -15,7 +15,7 @@ O objetivo deste projeto é coletar e analisar dados relacionados à Covid Longa
 | ![Foto do Vitor](https://avatars.githubusercontent.com/u/126176980?v=4) | Vitor Leandro| Scrum Master | [www.github.com/haikizinho](www.github.com/haikizinho) |
 | ![Foto do Rodrigo Augusto](https://avatars.githubusercontent.com/u/34490697?v=4) | Rodrigo Augusto | Desenvolvedor | [www.linkedin.com/rodrigo](www.linkedin.com/rodrigo) |
 
-## <img src="https://cdn-icons-png.flaticon.com/512/1588/1588199.png" alt="Ícone de Requerimentos" width="30" height="30" style="vertical-align: middle; filter: invert(100%);"> Requerimentos
+## <img src="https://cdn-icons-png.flaticon.com/512/1588/1588199.png" alt="Ícone de Requerimentos" width="30" height="30" style="vertical-align: middle;"> Requerimentos
 
 Para executar o projeto de raspagem de dados para Covid, é necessário ter o Python instalado em seu computador. Recomendamos a versão 3.8 ou superior.
 
