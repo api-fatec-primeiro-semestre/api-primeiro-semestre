@@ -21,7 +21,7 @@ O objetivo deste projeto é coletar e analisar dados relacionados à Covid Longa
 | ![Foto da Lilian](https://avatars.githubusercontent.com/u/124699768?v=4) | Lilian de Araújo Ferrão | P.O | [www.github.com/lilianferrao](https://www.github.com/lilianferrao) |[Lilian de Araújo](https://www.linkedin.com/in/lilian-de-ara%C3%BAjo-ferr%C3%A3o-938492117/)
 | ![Foto do Marcus](https://avatars.githubusercontent.com/u/73323386?v=4) | Marcus | Desenvolvedor | [www.github.com/marcusvbe](https://www.github.com/marcusvbe) |[Marcus Betti](https://www.linkedin.com/in/marcus-betti-715b6614a/)
 | ![Foto da Maria Gabriela](https://avatars.githubusercontent.com/u/127119599?v=4) | Maria Gabriela | Desenvolvedor | [www.github.com/MariaGabrielaMello](https://www.github.com/MariaGabrielaMello) | [Gabriela Mello](https://www.linkedin.com/in/gabrieia-mello-3819a9270/)
-| ![Foto do Vitor](https://avatars.githubusercontent.com/u/126176980?v=4) | Vitor Leandro| Scrum Master | [www.github.com/haikizinho](https://www.github.com/haikizinho) | [Vitor Leandro](https://www.linkedin.com/in//)
+| ![Foto do Vitor](https://avatars.githubusercontent.com/u/126176980?v=4) | Vitor Leandro| Scrum Master | [www.github.com/haikizinho](https://www.github.com/haikizinho) | [Vitor Leandro](https://www.linkedin.com/in/vitor-leandro-81451b263/)
 | ![Foto do Rodrigo Augusto](https://avatars.githubusercontent.com/u/34490697?v=4) | Rodrigo Augusto | Desenvolvedor | [https://github.com/rodrigoaslima](https://github.com/rodrigoaslima) |[Rodrigo Augusto](https://www.linkedin.com/in/rodrigo-aslima/)
 
 ## Backlog
