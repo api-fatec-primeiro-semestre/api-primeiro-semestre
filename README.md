@@ -1,15 +1,15 @@
-# Projeto Integrado DSM Primeiro Semestre 2023
 
-O objetivo deste projeto é coletar e analisar dados relacionados à Covid Longa a partir do sistema Datasus (Tabnet), com o intuito de avaliar o impacto do "pós-pandemia" no Sistema Único de Saúde. Focando nas cidades do Vale do Paraíba - São José dos Campos, Jacareí e Taubaté - a análise destes dados pode gerar resultados relevantes para futuras reportagens jornalísticas, tanto em nível regional quanto estadual e nacional.
-
-# Índice
 - [Projeto Integrado DSM Primeiro Semestre 2023](#projeto-integrado-dsm-primeiro-semestre-2023)
-- [Índice](#índice)
   - [Membros do Time](#membros-do-time)
   - [Backlog](#backlog)
   - [ Requerimentos](#-requerimentos)
   - [ Como Executar o Projeto](#-como-executar-o-projeto)
   - [ MVP](#-mvp)
+
+
+# Projeto Integrado DSM Primeiro Semestre 2023
+
+O objetivo deste projeto é coletar e analisar dados relacionados à Covid Longa a partir do sistema Datasus (Tabnet), com o intuito de avaliar o impacto do "pós-pandemia" no Sistema Único de Saúde. Focando nas cidades do Vale do Paraíba - São José dos Campos, Jacareí e Taubaté - a análise destes dados pode gerar resultados relevantes para futuras reportagens jornalísticas, tanto em nível regional quanto estadual e nacional.
 
 ## Membros do Time
 
