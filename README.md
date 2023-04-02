@@ -112,4 +112,4 @@ Caso ocorram erros durante a execução do projeto, verifique se os passos acima
 
 Essa é a ideia inicial do projeto, contendo apenas as funcionalidades básicas necessárias para coletar e avaliar os dados do Datasus (Tabnet) referentes à carga do "pós-pandemia" sobre o sistema de saúde nas esferas municipais, estaduais e federal. O MVP será utilizado para testar e validar a ideia do projeto e receber feedback dos usuários, antes de serem adicionadas outras funcionalidades mais complexas e avançadas.
 
-![Alt Text](path/to/gif.gif)
+![Alt Text](WIREFRAME.gif)
