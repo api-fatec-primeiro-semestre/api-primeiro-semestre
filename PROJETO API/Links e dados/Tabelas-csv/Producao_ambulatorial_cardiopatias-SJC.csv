@@ -1,0 +1,32 @@
+ Produção Ambulatorial do SUS - São Paulo - por local de atendimento
+Qtd.aprovadaValor aprovadoQtd.apresentadaValor apresentadoDiferença de valorValor do complemento federalValor do complemento do gestorValor do incremento por Ano/mês atendimento
+Município: 354990 SAO JOSE DOS CAMPOS
+Procedimento: 0302040030 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO CLINICO CARDIOVASCULAR, 0302040048 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE PRE/POS CIRURGIA CARDIOVASCULAR, 0303060034 TRATAMENTO DE CARDIOPATIA HIPERTROFICA, 0303060042 TRATAMENTO DE CARDIOPATIA ISQUEMICA CRONICA, 0303060190 TRATAMENTO DE INFARTO AGUDO DO MIOCARDIO, 0303060239 TRATAMENTO DE MIOCARDIOPATIAS, 0303130024 ATENDIMENTO A PACIENTE SOB CUIDADOS PROLONGADOS POR ENFERMIDADES CARDIOVASCULARES, 0303140062 TRATAMENTO DE CARDIOPATIA PULMONAR NAO ESPECIFICADA (COR PULMONALE)
+Período:2019-2022
+"Ano/mês atendimento";"Qtd.aprovada";"Valor_aprovado";"Qtd.apresentada";"Valor_apresentado";"Diferença_de_valor";"Valor_do_complemento_federal";"Valor_do_complemento_do_gestor";"Valor_do_incremento"
+"2019";76;465,80;76;465,80;-;-;-;-
+"..Janeiro/2019";10;63,50;10;63,50;-;-;-;-
+"..Fevereiro/2019";10;46,70;10;46,70;-;-;-;-
+"..Março/2019";20;127,00;20;127,00;-;-;-;-
+"..Abril/2019";10;63,50;10;63,50;-;-;-;-
+"..Maio/2019";9;57,15;9;57,15;-;-;-;-
+"..Julho/2019";7;44,45;7;44,45;-;-;-;-
+"..Outubro/2019";10;63,50;10;63,50;-;-;-;-
+"2021";13;82,55;13;82,55;-;-;-;-
+"  Junho/2021";11;69,85;11;69,85;-;-;-;-
+"  Julho/2021";2;12,70;2;12,70;-;-;-;-
+"2022";10;63,50;10;63,50;-;-;-;-
+"..Dezembro/2022";10;63,50;10;63,50;-;-;-;-
+"Total";99;611,85;99;611,85;-;-;-;-
+ Fonte: Ministério da Saúde - Sistema de Informações Ambulatoriais do SUS (SIA/SUS)
+ Notas:
+ 
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.
