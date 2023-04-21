@@ -37,6 +37,18 @@ Nesse link, conseguimos os dados referentes a:
 - Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
 - Em seleções disponíveis, selecionar o município e no capítulo CID-10, selecionar a opção "IX. Doenças do aparelho circulatório"
 
+8)Internações gerais
+Nesse link conseguimos os dados referentes a:
+- Internações para os anos 2019, 2020, 2021 e 2022
+- Acessar o link http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/qisp.def, em linha selecionar ano/mês de atendimento, coluna deixar inativa, em conteúdo selecionar Internações, em Municípios selecionar a cidade desejada
+
+9) Internações por tipo de leito, faixa etária e custo
+Nesse link conseguimos os dados referentes a:
+- Internações em Leitos UTI adultto e pediátrico, para os anos 2020, 2021 e 2022
+- Internações em Leitos de suporte ventilatório pulmonar, para os anos 2021 e 2022
+- Dados sobre o valor total dos leitos 2020, 2021 e 2022
+- Acessar o link https://infoms.saude.gov.br/extensions/Leitos_C19/Leitos_C19.html. Em Filtros selecionar os anos desejados e em Município selecionar as cidades, em tipo selecionar adulto e pediátrico
+
 
 
 
