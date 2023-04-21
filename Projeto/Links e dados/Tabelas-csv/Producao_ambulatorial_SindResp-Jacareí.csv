@@ -1,0 +1,71 @@
+ Produção Ambulatorial do SUS - São Paulo - por local de atendimento
+Qtd.aprovadaValor aprovadoQtd.apresentadaValor apresentadoDiferença de valorValor do complemento federalValor do complemento do gestorValor do incremento por Ano/mês atendimento
+Município: 352440 JACAREI
+Procedimento: 0301070210 REABILITACAO DE PACIENTES POS COVID-19, 0301070229 REABILITACAO CARDIORRESPIRATORIA DE PACIENTES POS COVID-19, 0302040013 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO RESPIRATORIO COM COMPLICACOES SISTEMICAS, 0302040021 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO RESPIRATORIO SEM COMPLICACOES SISTEMICAS, 0303140097 TRATAMENTO DE HEMORRAGIAS DAS VIAS RESPIRATORIAS, 0303140135 TRATAMENTO DE OUTRAS DOENCAS DO APARELHO RESPIRATORIO, 0308010027 TRATAMENTO DE EFEITOS DE ASFIXIA / OUTROS RISCOS A RESPIRACAO
+Período:2019-2022
+"Ano/mês atendimento";"Qtd.aprovada";"Valor_aprovado";"Qtd.apresentada";"Valor_apresentado";"Diferença_de_valor";"Valor_do_complemento_federal";"Valor_do_complemento_do_gestor";"Valor_do_incremento"
+"2019";427;2236,01;427;2236,01;-;-;-;-
+"..Janeiro/2019";23;124,21;23;124,21;-;-;-;-
+"..Fevereiro/2019";29;163,99;29;163,99;-;-;-;-
+"..Março/2019";40;201,92;40;201,92;-;-;-;-
+"..Abril/2019";56;276,64;56;276,64;-;-;-;-
+"..Maio/2019";44;249,16;44;249,16;-;-;-;-
+"..Junho/2019";27;161,37;27;161,37;-;-;-;-
+"..Julho/2019";36;188,28;36;188,28;-;-;-;-
+"..Agosto/2019";37;186,23;37;186,23;-;-;-;-
+"..Setembro/2019";32;178,00;32;178,00;-;-;-;-
+"..Outubro/2019";19;93,77;19;93,77;-;-;-;-
+"..Novembro/2019";40;190,16;40;190,16;-;-;-;-
+"..Dezembro/2019";44;222,28;44;222,28;-;-;-;-
+"2020";304;1498,64;304;1498,64;-;-;-;-
+"..Janeiro/2020";66;318,30;66;318,30;-;-;-;-
+"..Fevereiro/2020";42;201,18;42;201,18;-;-;-;-
+"..Março/2020";38;177,46;38;177,46;-;-;-;-
+"..Abril/2020";5;23,35;5;23,35;-;-;-;-
+"..Maio/2020";1;6,35;1;6,35;-;-;-;-
+"..Junho/2020";3;14,01;3;14,01;-;-;-;-
+"..Julho/2020";24;128,88;24;128,88;-;-;-;-
+"..Agosto/2020";21;111,51;21;111,51;-;-;-;-
+"..Setembro/2020";18;99,18;18;99,18;-;-;-;-
+"..Outubro/2020";32;162,88;32;162,88;-;-;-;-
+"..Novembro/2020";35;166,81;35;166,81;-;-;-;-
+"..Dezembro/2020";19;88,73;19;88,73;-;-;-;-
+"2021";794;4151,50;794;4151,50;-;-;-;-
+"  Janeiro/2021";30;140,10;30;140,10;-;-;-;-
+"  Fevereiro/2021";28;130,76;28;130,76;-;-;-;-
+"  Março/2021";10;46,70;10;46,70;-;-;-;-
+"  Abril/2021";24;117,12;24;117,12;-;-;-;-
+"  Maio/2021";43;217,61;43;217,61;-;-;-;-
+"  Junho/2021";66;336,78;66;336,78;-;-;-;-
+"  Julho/2021";77;401,59;77;401,59;-;-;-;-
+"  Agosto/2021";115;574,01;115;574,01;-;-;-;-
+"  Setembro/2021";146;733,90;146;733,90;-;-;-;-
+"  Outubro/2021";119;676,69;119;676,69;-;-;-;-
+"  Novembro/2021";98;553,42;98;553,42;-;-;-;-
+"  Dezembro/2021";38;222,82;38;222,82;-;-;-;-
+"2022";620;6546,22;621;6552,57;-;-;-;-
+"..Janeiro/2022";47;278,29;47;278,29;-;-;-;-
+"..Fevereiro/2022";44;569,62;44;569,62;-;-;-;-
+"..Março/2022";53;861,91;53;861,91;-;-;-;-
+"..Abril/2022";62;871,58;62;871,58;-;-;-;-
+"..Maio/2022";72;676,64;72;676,64;-;-;-;-
+"..Junho/2022";54;366,06;55;372,41;-;-;-;-
+"..Julho/2022";46;337,32;46;337,32;-;-;-;-
+"..Agosto/2022";64;777,12;64;777,12;-;-;-;-
+"..Setembro/2022";63;627,67;63;627,67;-;-;-;-
+"..Outubro/2022";58;548,00;58;548,00;-;-;-;-
+"..Novembro/2022";33;348,05;33;348,05;-;-;-;-
+"..Dezembro/2022";24;283,96;24;283,96;-;-;-;-
+"Total";2145;14432,37;2146;14438,72;-;-;-;-
+ Fonte: Ministério da Saúde - Sistema de Informações Ambulatoriais do SUS (SIA/SUS)
+ Notas:
+ 
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.
