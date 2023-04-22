@@ -1,0 +1,28 @@
+1) Atualizar o backlog --> Atualizar a Sprint 2 -> os itens abaixo têm que ser revistos:
+
+-Eu, enquanto jornalista, gostaria de visualizar os dados inseridos no site do DataSUS das cidades de São José dos Campos, Taubaté e Jacareí.
+-Raspagem de dados das informações sobre a COVID-19 do DataSUS TABNET das cidades de Taubaté, Jacareí e São José dos Campos
+-"Criação e organização das tabelas de dados por contaminação, internação e óbitos dos anos de 2019 a 2022"
+-Implementação das tabelas obtidas na página Web 
+
+
+2) Gráfico da página Dados --> Precisamos escolher um gráfico relevante para o cliente e inseri-lo na página Dados.
+Citar a fonte. 
+- Dados respiratórios? A Katy gerou pra são josé dos campos. Katy vai conferir isso. 
+- A Gabi ficou de tentar criar o GRÁFICO INTERATIVO pra passar para o Rodrigo colocar na página de DADOS.
+
+
+3) Vídeo ou GIF do site em HTML, CSS.
+
+
+4) Atualizar o README na raíz do repositório, explicando como fazer para rodar o site (um quickstart de como rodar o projeto com o FLASK -> a versão do python necessária, como criar o ambiente virtual e instalar o flask nele, etc). (aproveitar o arquivo ReadMe.txt na pasta Frontend e excluí-lo)
+
+
+5) Site -> Rodrigo está finalizando.
+
+
+6) Lilian falou com Masanori sobre o uso de JS nos botões do site. A resposta dele está pendente. 
+
+
+
+
