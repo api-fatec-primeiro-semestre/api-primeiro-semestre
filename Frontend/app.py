@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Flask, render_template, request
 
 app = Flask("__name__")
@@ -13,10 +14,21 @@ app.static_folder = 'src/static'
 
 botao = ''
 
+=======
+from flask import Flask, render_template
+
+app = Flask("__name__")
+
+# Configurar o caminho para a pasta de templates
+app.template_folder = 'src/templates'
+app.static_folder = 'src/static'
+
+>>>>>>> main
 @app.route("/") # criando rotas com decorator
 def index():
     return render_template("index.html")
 
+<<<<<<< HEAD
 @app.route("/dados.html", methods=['GET', 'POST'])
 def dados():
     data=[
@@ -52,6 +64,15 @@ def dados():
 # @app.route("/conheca.html")
 # def quem_somos():
 #     return render_template("conheca.html")
+=======
+# @app.route("/dados.html")
+# def contato():
+#     return render_template("/dados.html")
+
+@app.route("/quem_somos")
+def quem_somos():
+    return render_template("/quem_sonos/quem_somos.html")
+>>>>>>> main
 
 
 
