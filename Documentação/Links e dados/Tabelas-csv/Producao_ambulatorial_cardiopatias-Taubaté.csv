@@ -1,0 +1,56 @@
+ Produção Ambulatorial do SUS - São Paulo - por local de atendimento
+Qtd.aprovadaValor aprovadoQtd.apresentadaValor apresentadoDiferença de valorValor do complemento federalValor do complemento do gestorValor do incremento por Ano/mês atendimento
+Município: 355410 TAUBATE
+Procedimento: 0302040030 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO CLINICO CARDIOVASCULAR, 0302040048 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE PRE/POS CIRURGIA CARDIOVASCULAR, 0303060034 TRATAMENTO DE CARDIOPATIA HIPERTROFICA, 0303060042 TRATAMENTO DE CARDIOPATIA ISQUEMICA CRONICA, 0303060190 TRATAMENTO DE INFARTO AGUDO DO MIOCARDIO, 0303060239 TRATAMENTO DE MIOCARDIOPATIAS, 0303130024 ATENDIMENTO A PACIENTE SOB CUIDADOS PROLONGADOS POR ENFERMIDADES CARDIOVASCULARES, 0303140062 TRATAMENTO DE CARDIOPATIA PULMONAR NAO ESPECIFICADA (COR PULMONALE)
+Período:2019-2022
+"Ano/mês atendimento";"Qtd.aprovada";"Valor_aprovado";"Qtd.apresentada";"Valor_apresentado";"Diferença_de_valor";"Valor_do_complemento_federal";"Valor_do_complemento_do_gestor";"Valor_do_incremento"
+"2019";77;371,35;77;371,35;-;-;-;-
+"..Julho/2019";21;98,07;21;98,07;-;-;-;-
+"..Agosto/2019";25;116,75;25;116,75;-;-;-;-
+"..Setembro/2019";9;43,71;9;43,71;-;-;-;-
+"..Outubro/2019";21;108,15;21;108,15;-;-;-;-
+"..Novembro/2019";1;4,67;1;4,67;-;-;-;-
+"2020";98;457,66;98;457,66;-;-;-;-
+"..Janeiro/2020";3;14,01;3;14,01;-;-;-;-
+"..Fevereiro/2020";2;9,34;2;9,34;-;-;-;-
+"..Março/2020";1;4,67;1;4,67;-;-;-;-
+"..Abril/2020";1;4,67;1;4,67;-;-;-;-
+"..Maio/2020";1;4,67;1;4,67;-;-;-;-
+"..Junho/2020";4;18,68;4;18,68;-;-;-;-
+"..Julho/2020";10;46,70;10;46,70;-;-;-;-
+"..Agosto/2020";13;60,71;13;60,71;-;-;-;-
+"..Setembro/2020";9;42,03;9;42,03;-;-;-;-
+"..Outubro/2020";17;79,39;17;79,39;-;-;-;-
+"..Novembro/2020";19;88,73;19;88,73;-;-;-;-
+"..Dezembro/2020";18;84,06;18;84,06;-;-;-;-
+"2021";82;382,94;82;382,94;-;-;-;-
+"  Janeiro/2021";18;84,06;18;84,06;-;-;-;-
+"  Fevereiro/2021";3;14,01;3;14,01;-;-;-;-
+"  Março/2021";6;28,02;6;28,02;-;-;-;-
+"  Junho/2021";20;93,40;20;93,40;-;-;-;-
+"  Julho/2021";11;51,37;11;51,37;-;-;-;-
+"  Agosto/2021";9;42,03;9;42,03;-;-;-;-
+"  Setembro/2021";7;32,69;7;32,69;-;-;-;-
+"  Outubro/2021";3;14,01;3;14,01;-;-;-;-
+"  Novembro/2021";4;18,68;4;18,68;-;-;-;-
+"  Dezembro/2021";1;4,67;1;4,67;-;-;-;-
+"2022";50;236,86;50;236,86;-;-;-;-
+"..Fevereiro/2022";11;51,37;11;51,37;-;-;-;-
+"..Março/2022";12;57,72;12;57,72;-;-;-;-
+"..Abril/2022";4;18,68;4;18,68;-;-;-;-
+"..Maio/2022";14;67,06;14;67,06;-;-;-;-
+"..Outubro/2022";5;23,35;5;23,35;-;-;-;-
+"..Dezembro/2022";4;18,68;4;18,68;-;-;-;-
+"Total";307;1448,81;307;1448,81;-;-;-;-
+ Fonte: Ministério da Saúde - Sistema de Informações Ambulatoriais do SUS (SIA/SUS)
+ Notas:
+ 
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.
