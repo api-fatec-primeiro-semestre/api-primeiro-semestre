@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, render_template, request
 
 app = Flask("__name__")
@@ -14,22 +13,11 @@ app.static_folder = 'src/static'
 
 botao = ''
 
-=======
-from flask import Flask, render_template
-
-app = Flask("__name__")
-
-# Configurar o caminho para a pasta de templates
-app.template_folder = 'src/templates'
-app.static_folder = 'src/static'
-
->>>>>>> main
 @app.route("/") # criando rotas com decorator
 def index():
     return render_template("index.html")
 
-<<<<<<< HEAD
-@app.route("/dados.html", methods=['GET', 'POST'])
+@app.route("/dados", methods=['GET', 'POST'])
 def dados():
     data=[
         ("JAN", 22,30),
@@ -50,29 +38,18 @@ def dados():
     values1 = [row[1] for row in data]
     values2 = [row[2] for row in data]
 
-
     Consultas=['Pneumologista','Cardiologista','Clinico Geral']
     Cidades= ['Jacareí','São José dos Campos','Taubaté']
     Anos=['2019','2020','2021','2022']
     
-
     global botao
     if request.method == 'POST':
         botao = request.form.get('botao')
     return render_template("/dados/dados.html", resultado=botao, labels=labels, values1=values1, values2=values2, Consultas=Consultas, Cidades=Cidades, Anos=Anos)
 
-# @app.route("/conheca.html")
-# def quem_somos():
-#     return render_template("conheca.html")
-=======
-# @app.route("/dados.html")
-# def contato():
-#     return render_template("/dados.html")
-
 @app.route("/quem_somos")
 def quem_somos():
-    return render_template("/quem_sonos/quem_somos.html")
->>>>>>> main
+    return render_template("/quem_somos/quem_somos.html")
 
 
 
