@@ -1,0 +1,169 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dados.css') }}">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+{% extends "index.html"%}
+{% block conteudo %}
+   <div class="DadosContainer">
+    <div class="titleWrapper">
+        <p class="text">Escolha uma categoria para a sua pesquisa:</p>
+    </div>
+
+    <form method="post" class="ButtonContainer">
+        <button 
+            type="submit" 
+            class="typeButton"
+            name="botao"
+            value="Consulta"
+        
+        >
+            <img class="imgCategory" src="../../static/img/consulta-1@2x.png" alt="Consulta">
+            Consulta
+        </button>
+
+        <button 
+            type="submit" 
+            class="typeButton"
+            name="botao"
+            value="Procedimento"
+        >
+            <img  class="imgCategory" src="../../static/img/tratameto-1@2x.png" alt="Procedimento"/>
+            Procedimento
+        </button>
+
+        <button 
+            type="submit" 
+            class="typeButton"
+            name="botao"
+            value="Tratamento"
+        >
+            <img  class="imgCategory" src="../../static/img/tratameto-1@2x.png" alt="Tratamento"/>
+            Tratamento
+            
+        </button>
+
+        <button 
+            type="submit" 
+            class="typeButton"
+            name="botao"
+            value="Medicamento"
+        >
+            <img  class="imgCategory" src="../../static/img/medicao-1@2x.png" alt="Medicamento"/>
+            Medicamento
+        </button>
+    </form>
+    <div class="infoContainer">
+
+        {% if resultado == 'Consulta' %}
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor libero ut aliquam interdum. Fusce vitae velit tortor. Quisque euismod et leo nec vulputate. Phasellus tempus orci eu lectus cursus, in malesuada erat ultrices. Pellentesque imperdiet nisl eu erat porttitor, eu cursus justo faucibus. Maecenas efficitur ultricies congue. Phasellus sit amet condimentum libero, sed dapibus tellus. Nullam blandit nec dui auctor faucibus. Integer rutrum egestas tellus, quis tincidunt magna malesuada ac. Sed non fringilla mauris, id accumsan purus. Sed non rhoncus erat, quis interdum massa.
+                </p>
+
+                <p>Nullam vulputate eget massa in ornare. In sagittis interdum varius. Donec ac dolor nulla. Nunc rutrum odio in mauris faucibus, pharetra vestibulum metus consectetur. Maecenas sem velit, elementum quis finibus eu, dictum sit amet est. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+            </div>
+
+            <div class="searchContainer">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha uma cidade
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for cidade in Cidades%}
+                            <li><a class="dropdown-item" href="#">{{cidade}}</a></li>
+                        {%endfor%}
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha uma Consulta
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for consulta in Consultas%}
+                            <li><a class="dropdown-item" href="#">{{consulta}}</a></li>
+                        {%endfor%}
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha o ano
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for ano in Anos%}
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value={{ano}} id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {{ano}}
+                                </label>
+                            </div>
+                        {%endfor%}
+                    </div>
+                </div>
+
+                <button type="button" class="buttonSearch">Buscar</button>
+
+                <button type="button" class="buttonSearch">Redefinir</button>
+            </div>
+
+            <canvas id="lineChart" width="900" height="400"></canvas>
+            <script>
+                var ctx = document.getElementById('lineChart').getContext("2d");
+                var lineChart = new Chart(ctx,{
+                    type: 'line',
+                    data:{
+                        labels: {{labels | safe}},
+                        datasets: [
+                            {
+                                label: "Ano: 2019",
+                                data: {{values1 | safe}},
+                                fill: false,
+                                borderColor: "#ce2a96ff",
+                                lineTension: 0.1
+                            },
+                            {
+                                label: "Ano: 2022",
+                                data: {{values2 | safe}},
+                                fill: false,
+                                borderColor: "#6c60ff",
+                                lineTension: 0.1
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: false
+                    }
+                });
+            </script>
+
+
+        {% elif resultado == 'Procedimento' %}
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor libero ut aliquam interdum. Fusce vitae velit tortor. Quisque euismod et leo nec vulputate. Phasellus tempus orci eu lectus cursus, in malesuada erat ultrices. Pellentesque imperdiet nisl eu erat porttitor, eu cursus justo faucibus. Maecenas efficitur ultricies congue. Phasellus sit amet condimentum libero, sed dapibus tellus. Nullam blandit nec dui auctor faucibus. Integer rutrum egestas tellus, quis tincidunt magna malesuada ac. Sed non fringilla mauris, id accumsan purus. Sed non rhoncus erat, quis interdum massa.
+                </p>
+
+                <p>Nullam vulputate eget massa in ornare. In sagittis interdum varius. Donec ac dolor nulla. Nunc rutrum odio in mauris faucibus, pharetra vestibulum metus consectetur. Maecenas sem velit, elementum quis finibus eu, dictum sit amet est. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+            </div>
+        {% elif resultado == 'Tratamento' %}
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor libero ut aliquam interdum. Fusce vitae velit tortor. Quisque euismod et leo nec vulputate. Phasellus tempus orci eu lectus cursus, in malesuada erat ultrices. Pellentesque imperdiet nisl eu erat porttitor, eu cursus justo faucibus. Maecenas efficitur ultricies congue. Phasellus sit amet condimentum libero, sed dapibus tellus. Nullam blandit nec dui auctor faucibus. Integer rutrum egestas tellus, quis tincidunt magna malesuada ac. Sed non fringilla mauris, id accumsan purus. Sed non rhoncus erat, quis interdum massa.
+                </p>
+
+                <p>Nullam vulputate eget massa in ornare. In sagittis interdum varius. Donec ac dolor nulla. Nunc rutrum odio in mauris faucibus, pharetra vestibulum metus consectetur. Maecenas sem velit, elementum quis finibus eu, dictum sit amet est. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+            </div>
+        {% elif resultado == 'Medicamento' %}
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor libero ut aliquam interdum. Fusce vitae velit tortor. Quisque euismod et leo nec vulputate. Phasellus tempus orci eu lectus cursus, in malesuada erat ultrices. Pellentesque imperdiet nisl eu erat porttitor, eu cursus justo faucibus. Maecenas efficitur ultricies congue. Phasellus sit amet condimentum libero, sed dapibus tellus. Nullam blandit nec dui auctor faucibus. Integer rutrum egestas tellus, quis tincidunt magna malesuada ac. Sed non fringilla mauris, id accumsan purus. Sed non rhoncus erat, quis interdum massa.
+                </p>
+
+                <p>Nullam vulputate eget massa in ornare. In sagittis interdum varius. Donec ac dolor nulla. Nunc rutrum odio in mauris faucibus, pharetra vestibulum metus consectetur. Maecenas sem velit, elementum quis finibus eu, dictum sit amet est. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+            </div>
+        {%else%}
+            </>
+        {%endif %}
+    </div>
+   </div>
+    
+{% endblock %}

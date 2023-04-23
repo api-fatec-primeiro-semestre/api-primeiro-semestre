@@ -1,9 +1,21 @@
+<<<<<<<< HEAD:Documentação/Links e dados/README.txt
+1) Consultas Acessar o link https://sisaps.saude.gov.br/painelsaps/atendimento e filtrar pela cidade de interesse. No caso do nosso projeto, as cidades são São José dos Campos, Taubaté e Jacareí.
+
+Nesse link, conseguimos os dados referentes a:
+
+- Consultas gerais, para os anos de 2019, 2020, 2021 e 2022;
+
+- Consultas por Covid-19, para os anos de 2020,2021 e 2022;
+
+- Consultas por sintomas gripais, , para os anos de 2020,2021 e 2022.
+========
 1) Consultas 
 Nesse link, conseguimos os dados referentes a:
 .Consultas gerais, para os anos de 2019, 2020, 2021 e 2022;
 .Consultas por Covid-19, para os anos de 2020,2021 e 2022;
 .Consultas por sintomas gripais, , para os anos de 2020,2021 e 2022.
 - Acessar o link https://sisaps.saude.gov.br/painelsaps/atendimento e filtrar pela cidade de interesse. No caso do nosso projeto, as cidades são São José dos Campos, Taubaté e Jacareí.
+>>>>>>>> main:Documentação/Links e dados/README.md
 
 2) Procedimentos hospitalares relacionados à trombose 
 - Acessar o link http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/qisp.def, em linha selecionar ano/mês atendimento, coluna deixar inativa, em conteúdo selecionar tudo;
@@ -32,11 +44,17 @@ Nesse link, conseguimos os dados referentes a:
 - Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
 - Em seleções disponíveis, selecionar o município e no capítulo CID-10, selecionar a opção "X. Doenças do aparelho respiratório"
 
+<<<<<<<< HEAD:Documentação/Links e dados/README.txt
+6) Morbidade pelo CID-10, relacionados a aparelho circulatório:
+========
 7) Morbidade pelo CID-10, relacionados a aparelho circulatório:
+>>>>>>>> main:Documentação/Links e dados/README.md
 - Acessar o link http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nisp.def, em linha selecionar ano/mês atendimento, coluna deixar inativa, em conteúdo selecionar tudo;
 - Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
 - Em seleções disponíveis, selecionar o município e no capítulo CID-10, selecionar a opção "IX. Doenças do aparelho circulatório"
 
+<<<<<<<< HEAD:Documentação/Links e dados/README.txt
+========
 8)Internações gerais
 Nesse link conseguimos os dados referentes a:
 - Internações para os anos 2019, 2020, 2021 e 2022
@@ -49,6 +67,7 @@ Nesse link conseguimos os dados referentes a:
 - Dados sobre o valor total dos leitos 2020, 2021 e 2022
 - Acessar o link https://infoms.saude.gov.br/extensions/Leitos_C19/Leitos_C19.html. Em Filtros selecionar os anos desejados e em Município selecionar as cidades, em tipo selecionar adulto e pediátrico
 
+>>>>>>>> main:Documentação/Links e dados/README.md
 
 
 

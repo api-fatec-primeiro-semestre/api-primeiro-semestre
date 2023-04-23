@@ -3,6 +3,17 @@ body {
   line-height: normal;
 }
 
+<<<<<<< HEAD
+a{
+  text-decoration: none
+}
+
+p{
+  margin:0;
+  padding: 0
+}
+
+=======
 :root {
   /* fonts */
   --chart-text: Roboto;
@@ -37,3 +48,4 @@ body {
   /* border radiuses */
   --br-21xl: 40px;
 }
+>>>>>>> main

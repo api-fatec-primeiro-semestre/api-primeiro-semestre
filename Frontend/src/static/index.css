@@ -1,3 +1,36 @@
+<<<<<<< HEAD
+.HeaderNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ImgNav{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.ContainerNav{
+  display: flex;
+  justify-content: center;
+  flex: 4;
+  align-items: center;
+}
+
+.TitleBar{
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  margin-top: 2px;
+  padding-left: 8em;
+}
+
+.TitleText{
+  color: white;
+  text-decoration: underline;
+}
+=======
 .contato {
   margin: 0;
   font-size: var(--font-size-13xl);
@@ -816,3 +849,4 @@
     justify-content: flex-start;
   }
 }
+>>>>>>> main
