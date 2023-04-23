@@ -144,6 +144,80 @@
 
                 <p>Nullam vulputate eget massa in ornare. In sagittis interdum varius. Donec ac dolor nulla. Nunc rutrum odio in mauris faucibus, pharetra vestibulum metus consectetur. Maecenas sem velit, elementum quis finibus eu, dictum sit amet est. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
             </div>
+
+            <div class="searchContainer">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha uma cidade
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for cidade in Cidades%}
+                            <li><a class="dropdown-item" href="#">{{cidade}}</a></li>
+                        {%endfor%}
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha uma Consulta
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for consulta in Consultas%}
+                            <li><a class="dropdown-item" href="#">{{consulta}}</a></li>
+                        {%endfor%}
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha o ano
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for ano in Anos%}
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value={{ano}} id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {{ano}}
+                                </label>
+                            </div>
+                        {%endfor%}
+                    </div>
+                </div>
+
+                <button type="button" class="buttonSearch">Buscar</button>
+
+                <button type="button" class="buttonSearch">Redefinir</button>
+            </div>
+
+            <canvas id="lineChart" width="900" height="400"></canvas>
+            <script>
+                var ctx = document.getElementById('lineChart').getContext("2d");
+                var lineChart = new Chart(ctx,{
+                    type: 'line',
+                    data:{
+                        labels: {{labels | safe}},
+                        datasets: [
+                            {
+                                label: "Ano: 2019",
+                                data: {{values1 | safe}},
+                                fill: false,
+                                borderColor: "#ce2a96ff",
+                                lineTension: 0.1
+                            },
+                            {
+                                label: "Ano: 2022",
+                                data: {{values2 | safe}},
+                                fill: false,
+                                borderColor: "#6c60ff",
+                                lineTension: 0.1
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: false
+                    }
+                });
+            </script>
         {% elif resultado == 'Tratamento' %}
             <div>
                 <p>
@@ -152,6 +226,80 @@
 
                 <p>Nullam vulputate eget massa in ornare. In sagittis interdum varius. Donec ac dolor nulla. Nunc rutrum odio in mauris faucibus, pharetra vestibulum metus consectetur. Maecenas sem velit, elementum quis finibus eu, dictum sit amet est. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
             </div>
+
+            <div class="searchContainer">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha uma cidade
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for cidade in Cidades%}
+                            <li><a class="dropdown-item" href="#">{{cidade}}</a></li>
+                        {%endfor%}
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha uma Consulta
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for consulta in Consultas%}
+                            <li><a class="dropdown-item" href="#">{{consulta}}</a></li>
+                        {%endfor%}
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha o ano
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for ano in Anos%}
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value={{ano}} id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {{ano}}
+                                </label>
+                            </div>
+                        {%endfor%}
+                    </div>
+                </div>
+
+                <button type="button" class="buttonSearch">Buscar</button>
+
+                <button type="button" class="buttonSearch">Redefinir</button>
+            </div>
+
+            <canvas id="lineChart" width="900" height="400"></canvas>
+            <script>
+                var ctx = document.getElementById('lineChart').getContext("2d");
+                var lineChart = new Chart(ctx,{
+                    type: 'line',
+                    data:{
+                        labels: {{labels | safe}},
+                        datasets: [
+                            {
+                                label: "Ano: 2019",
+                                data: {{values1 | safe}},
+                                fill: false,
+                                borderColor: "#ce2a96ff",
+                                lineTension: 0.1
+                            },
+                            {
+                                label: "Ano: 2022",
+                                data: {{values2 | safe}},
+                                fill: false,
+                                borderColor: "#6c60ff",
+                                lineTension: 0.1
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: false
+                    }
+                });
+            </script>
         {% elif resultado == 'Medicamento' %}
             <div>
                 <p>
@@ -160,6 +308,80 @@
 
                 <p>Nullam vulputate eget massa in ornare. In sagittis interdum varius. Donec ac dolor nulla. Nunc rutrum odio in mauris faucibus, pharetra vestibulum metus consectetur. Maecenas sem velit, elementum quis finibus eu, dictum sit amet est. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
             </div>
+
+            <div class="searchContainer">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha uma cidade
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for cidade in Cidades%}
+                            <li><a class="dropdown-item" href="#">{{cidade}}</a></li>
+                        {%endfor%}
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha uma Consulta
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for consulta in Consultas%}
+                            <li><a class="dropdown-item" href="#">{{consulta}}</a></li>
+                        {%endfor%}
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Escolha o ano
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {%for ano in Anos%}
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value={{ano}} id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {{ano}}
+                                </label>
+                            </div>
+                        {%endfor%}
+                    </div>
+                </div>
+
+                <button type="button" class="buttonSearch">Buscar</button>
+
+                <button type="button" class="buttonSearch">Redefinir</button>
+            </div>
+
+            <canvas id="lineChart" width="900" height="400"></canvas>
+            <script>
+                var ctx = document.getElementById('lineChart').getContext("2d");
+                var lineChart = new Chart(ctx,{
+                    type: 'line',
+                    data:{
+                        labels: {{labels | safe}},
+                        datasets: [
+                            {
+                                label: "Ano: 2019",
+                                data: {{values1 | safe}},
+                                fill: false,
+                                borderColor: "#ce2a96ff",
+                                lineTension: 0.1
+                            },
+                            {
+                                label: "Ano: 2022",
+                                data: {{values2 | safe}},
+                                fill: false,
+                                borderColor: "#6c60ff",
+                                lineTension: 0.1
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: false
+                    }
+                });
+            </script>
         {%else%}
             </>
         {%endif %}
