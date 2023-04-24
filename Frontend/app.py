@@ -14,8 +14,8 @@ app.static_folder = 'src/static'
 botao = ''
 
 @app.route("/") # criando rotas com decorator
-def index():
-    return render_template("index.html")
+def home():
+    return render_template("/home/home.html")
 
 @app.route("/dados", methods=['GET', 'POST'])
 def dados():
