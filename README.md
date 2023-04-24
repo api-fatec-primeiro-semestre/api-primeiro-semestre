@@ -127,6 +127,6 @@ Caso ocorram erros durante a execução do projeto, verifique se os passos acima
 
 ## ![Medalha MVP](https://img.icons8.com/material-sharp/24/ffffff/medal.png) MVP
 
-Essa é a ideia inicial do projeto, contendo apenas as funcionalidades básicas necessárias para coletar e avaliar os dados do Datasus (Tabnet) referentes à carga do "pós-pandemia" sobre o sistema de saúde nas esferas municipais, estaduais e federal. O MVP será utilizado para testar e validar a ideia do projeto e receber feedback dos usuários, antes de serem adicionadas outras funcionalidades mais complexas e avançadas.
+Esta é uma fase inicial do projeto, contendo apenas as funcionalidades básicas, já em formato HTML, necessárias para coletar e avaliar os dados do Datasus (Tabnet) referentes à carga do "pós-pandemia" sobre o sistema de saúde em alguns municípios relevantes do Vale do Paraíba: São José dos Campos, Jacareí e Taubaté. O MVP será utilizado para testar e validar a ideia do projeto e receber feedback dos usuários, antes de serem adicionadas outras funcionalidades mais complexas e avançadas.
 
-![Alt Text](WIREFRAME.gif)
+![Alt Text](Wireframe.gif)
