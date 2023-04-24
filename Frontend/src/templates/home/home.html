@@ -1,0 +1,40 @@
+{% extends "index.html"%}
+{% block conteudo %}
+<div class="banner">
+    <img src="{{ url_for('static', filename='img/COVID 19 BANNER.png') }}" alt="banner" width="100%" height="55%">
+</div>
+
+<hr>
+<br><h1 class="covid">COVID-19</h1><br>
+<p></p>
+<p>A COVID-19 é uma doença causada pelo coronavírus SARS-CoV-2 
+    e que teve início em dezembro de 2019 na cidade de Wuhan, na China.
+    Desde então, o vírus se espalhou rapidamente por todo o mundo, se 
+    tornando uma pandemia global.
+</p>
+<p>Os sintomas da COVID-19 variam de pessoa para pessoa, mas os mais comuns 
+incluem febre, tosse, falta de ar, fadiga e perda de paladar ou olfato. 
+A maioria das pessoas que contrai a doença apresenta sintomas leves a moderados 
+e se recupera sem precisar de tratamento hospitalar. No entanto, em casos mais 
+graves, a COVID-19 pode levar a complicações respiratórias, hospitalização e, 
+em casos extremos, à morte.
+</p>
+<p>Enquanto continuamos a lidar com os impactos da COVID-19, é importante 
+    lembrar de seguir as orientações de saúde pública, manter a higiene 
+    adequada e respeitar as medidas de distanciamento social para proteger 
+    a nós mesmos e aos outros. Juntos, podemos superar essa crise global e 
+    construir um futuro mais saudável e resiliente.
+</p>
+<br>
+<hr>
+<br>
+<div class="card-container">
+    
+    <div class="card1">
+      <img src="{{ url_for('static', filename='img/card1.png') }}" alt="card1"width="100%" height="100%">
+    </div>
+
+    <div class="card2">
+      <img src="{{ url_for('static', filename='img/card2.png') }}" alt="card2"width="100%" height="100%">
+    </div>
+{%endblock%}

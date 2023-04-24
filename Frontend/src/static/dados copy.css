@@ -1,0 +1,72 @@
+.DadosContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonContainer{
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgCategory{
+    width: 100px;
+    height: 110px;
+}
+
+.titleWrapper{
+    background: #d9d9d9;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.text{
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.searchContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonSearch{
+    border-radius: 20px;
+    background-color: #00d2ad;
+    color: #fff;
+    border: none;
+    padding: 1px 10px;
+}
+
+.typeButton{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: #d9d9d9ff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px
+}
+
+.typeButton:active{
+    background-color: #5c636a;
+}
