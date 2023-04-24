@@ -42,16 +42,19 @@ O objetivo deste projeto é coletar e analisar dados relacionados à Covid Longa
 |01|Criação de uma página do protótipo, explicando o projeto|
 |01|Integração do projeto no repositório GIT|
 |02|Eu, enquanto jornalista, gostaria de visualizar os dados inseridos no site do DataSUS das cidades de São José dos Campos, Taubaté e Jacareí.|
-|02|Criação e organização das tabelas de dados por internação por causas respiratórias e circulatórias, dos anos de 2019 a 2022|
-|02|Criação e organização das tabelas de consultas gerais, por motivo de COVID-19 e por Síndromes respiratórias, dos anos de 2019 a 2022|
-|02|Criação do site navegável|
+|02|Criação da página "HOME"|
+|02|Criação da página " Dados da Covid"|
+|02|Criação da página "Conheça o Projeto"|
+|02|Criação e organização das tabelas de dados por contaminação, internação e óbitos dos anos de 2019 a 2022|
 |02|Integração do projeto no repositório GIT|
 |03|Eu, enquanto jornalista, gostaria que o site mostrasse os dados em forma de gráfico para melhor visualização.|
-|03|Criação de gráficos a partir das tabelas obtidas de contaminação, internação e obitos.|
-|03|Criação das páginas Web das tabelas e gráficos obtidos|
-|03|Eu, enquanto jornalista, gostaria de visualizar dados sobre a incidencia de sequelas e efeitos de longa duração no pós-alta de COVID-19|
-|03|Raspagem de dados, do SIGTAB, das informações sobre a distribuição de medicamentos nos postos de saúde e farmacia popular nos anos de 2019 a 2022|
-|03|Raspagem de dados das informações obtidas no DataSUS TABNET das visitas ao pronto atendimento e médicos especialistas|
+|03|Raspagem de dados das informações sobre a COVID-19 do DataSUS TABNET das cidades de Taubaté, Jacareí e São José dos Campos|
+|03|Implementação das tabelas obtidas na página Web |
+|03|"Criação de gráficos a partir das tabelas obtidas de contaminação, internação e obitos."|
+|03|Criação das páginas Web das tabelas e gráficos obtidos |
+|03|Eu, enquanto jornalista, gostaria de visualizar dados sobre a incidencia de sequelas e efeitos de longa duração no pós alta de COVID-19|
+|03|Rapagem de dados, do SIGTAB, das informações sobre a distribuição de medicamentos nos postos de saúde e farmacia popular nos anos de 2019 a 2022|
+|03|Rapagem de dados das informações obtidas no DataSUS TABNET das visitas ao pronto atendimento e médicos especialistas|
 |03|Criação de tabelas de dados da distribuição de medicamentos e visitas ao pronto atendimento e médicos especialistas, baseadas no Rename 2022, dos anos de 2019 a 2022|
 |03|Implementação das tabelas obtidas na página WEB|
 |03|Integração do projeto no repositório GIT|
