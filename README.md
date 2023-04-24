@@ -80,29 +80,47 @@ Para executar o projeto de raspagem de dados para Covid, siga as instruções ab
 
    - Para instalar o Python no Windows, acesse o [site oficial](https://www.python.org/downloads/windows/) e baixe o instalador adequado à sua versão do Windows.
 
-2. Clone este repositório em sua máquina:
+
+2. Instale o GIT em seu computador. No site oficial do Git (http://git-scm.com/), clique em “Download for Windows” e selecione a versão adequada para seu sistema (32 ou 64 bits). Depois de baixado, clique duas vezes no arquivo para iniciar o assistente de instalação. Basta seguir as instruções na tela, clicando em Next. Ao término, clique em Finish para concluir com êxito a instalação.
+
+
+3. Clone este repositório em sua máquina. No diretório desejado, abra o CMD (prompt de comando) do Windows (no explorador de arquivos, basta selecionar o caminho da pasta, digitar "cmd" e pressionar Enter) e digite:
+
 ```
 git clone https://github.com/api-fatec-primeiro-semestre/api-primeiro-semestre.git
 ```
 
 
-3. Acesse o diretório do projeto:
+4. Entre na pasta do repositório e acesse a pasta Frontend:
 
 ```
-cd repositorio
+cd api-primeiro-semestre\Frontend
 ```
 
-4. Instale as dependências do projeto:
+5. Crie e ative um ambiente virtual:
 
 ```
-pip install -r requeriments.tx
+python -m venv venv
+venv\Scripts\activate
+```
+
+6. Instale as dependências do projeto:
+
+```
+pip install -r requirements.txt
 ```
 
 
-5. Execute o script principal:
+7. Execute o Flask:
 
 ```
-python main.py
+flask run
+```
+
+8. Clique no endereço de IP que será gerado para abrir o site no navegador:
+
+```
+Ctrl+Clique para seguir o link
 ```
 
 Caso ocorram erros durante a execução do projeto, verifique se os passos acima foram seguidos corretamente e se todas as dependências estão instaladas corretamente.
@@ -111,4 +129,4 @@ Caso ocorram erros durante a execução do projeto, verifique se os passos acima
 
 Essa é a ideia inicial do projeto, contendo apenas as funcionalidades básicas necessárias para coletar e avaliar os dados do Datasus (Tabnet) referentes à carga do "pós-pandemia" sobre o sistema de saúde nas esferas municipais, estaduais e federal. O MVP será utilizado para testar e validar a ideia do projeto e receber feedback dos usuários, antes de serem adicionadas outras funcionalidades mais complexas e avançadas.
 
-![Alt Text](Wireframe.gif)
+![Alt Text](WIREFRAME.gif)
