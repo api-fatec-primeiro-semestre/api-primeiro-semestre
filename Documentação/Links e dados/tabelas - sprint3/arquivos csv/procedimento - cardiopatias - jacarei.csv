@@ -1,0 +1,71 @@
+ Procedimentos hospitalares do SUS - por local de internação - São Paulo
+AIH aprovadas por Ano/mês atendimento
+Município: 352440 JACAREI
+Procedimento: 0302040030 ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE COM TRANSTORNO CLÍNICO CARDIOVASCULAR, 0302040048 ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE PRÉ/PÓS CIRURGIA CARDIOVASCULAR, 0303060034 TRATAMENTO DE CARDIOPATIA HIPERTROFICA, 0303060042 TRATAMENTO DE CARDIOPATIA ISQUEMICA CRONICA, 0303060190 TRATAMENTO DE INFARTO AGUDO DO MIOCÁRDIO, 0303060239 TRATAMENTO DE MIOCARDIOPATIAS, 0303130024 ATENDIMENTO A PACIENTE SOB CUIDADOS PROLONGADOS POR ENFERMIDADES CARDIOVASCULARES, 0303140062 TRATAMENTO DE CARDIOPATIA PULMONAR NAO ESPECIFICADA (COR PULMONALE)
+Período:2019-2022
+"Ano/mês atendimento";"AIH_aprovadas"
+"2019";108
+"..Janeiro/2019";6
+"..Fevereiro/2019";11
+"..Março/2019";10
+"..Abril/2019";15
+"..Maio/2019";5
+"..Junho/2019";8
+"..Julho/2019";6
+"..Agosto/2019";9
+"..Setembro/2019";11
+"..Outubro/2019";8
+"..Novembro/2019";11
+"..Dezembro/2019";8
+"2020";74
+"..Janeiro/2020";11
+"..Fevereiro/2020";7
+"..Março/2020";7
+"..Abril/2020";1
+"..Maio/2020";5
+"..Junho/2020";8
+"..Julho/2020";4
+"..Agosto/2020";5
+"..Setembro/2020";7
+"..Outubro/2020";8
+"..Novembro/2020";8
+"..Dezembro/2020";3
+"2021";76
+"  Janeiro/2021";5
+"  Fevereiro/2021";4
+"  Março/2021";4
+"  Abril/2021";6
+"  Maio/2021";6
+"  Junho/2021";4
+"  Julho/2021";12
+"  Agosto/2021";9
+"  Setembro/2021";5
+"  Outubro/2021";5
+"  Novembro/2021";9
+"  Dezembro/2021";7
+"2022";94
+"..Janeiro/2022";5
+"..Fevereiro/2022";8
+"..Março/2022";8
+"..Abril/2022";5
+"..Maio/2022";11
+"..Junho/2022";13
+"..Julho/2022";9
+"..Agosto/2022";10
+"..Setembro/2022";2
+"..Outubro/2022";9
+"..Novembro/2022";5
+"..Dezembro/2022";9
+"Total";352
+ Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS)
+ Notas:
+ 
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.

@@ -1,0 +1,69 @@
+ Procedimentos hospitalares do SUS - por local de internação - São Paulo
+AIH aprovadas por Ano/mês atendimento
+Município: 355410 TAUBATE
+Procedimento: 0303060298 TRATAMENTO DE TROMBOSE VENOSA PROFUNDA
+Período:Mar/2019-Dez/2022
+"Ano/mês atendimento";"AIH_aprovadas"
+"2019";66
+"..Março/2019";7
+"..Abril/2019";6
+"..Maio/2019";4
+"..Junho/2019";4
+"..Julho/2019";13
+"..Agosto/2019";3
+"..Setembro/2019";8
+"..Outubro/2019";9
+"..Novembro/2019";8
+"..Dezembro/2019";4
+"2020";105
+"..Janeiro/2020";6
+"..Fevereiro/2020";11
+"..Março/2020";10
+"..Abril/2020";7
+"..Maio/2020";7
+"..Junho/2020";9
+"..Julho/2020";9
+"..Agosto/2020";7
+"..Setembro/2020";8
+"..Outubro/2020";7
+"..Novembro/2020";11
+"..Dezembro/2020";13
+"2021";103
+"  Janeiro/2021";5
+"  Fevereiro/2021";9
+"  Março/2021";13
+"  Abril/2021";6
+"  Maio/2021";13
+"  Junho/2021";10
+"  Julho/2021";6
+"  Agosto/2021";5
+"  Setembro/2021";8
+"  Outubro/2021";6
+"  Novembro/2021";11
+"  Dezembro/2021";11
+"2022";180
+"..Janeiro/2022";11
+"..Fevereiro/2022";16
+"..Março/2022";15
+"..Abril/2022";15
+"..Maio/2022";14
+"..Junho/2022";14
+"..Julho/2022";9
+"..Agosto/2022";21
+"..Setembro/2022";16
+"..Outubro/2022";17
+"..Novembro/2022";19
+"..Dezembro/2022";13
+"Total";454
+ Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS)
+ Notas:
+ 
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.

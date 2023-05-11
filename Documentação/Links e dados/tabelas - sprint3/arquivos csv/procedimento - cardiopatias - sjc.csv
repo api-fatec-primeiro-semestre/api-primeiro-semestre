@@ -1,0 +1,74 @@
+ Procedimentos hospitalares do SUS - por local de internação - São Paulo
+AIH aprovadas por Ano/mês atendimento
+Município: 354990 SAO JOSE DOS CAMPOS
+Procedimento: 0302040030 ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE COM TRANSTORNO CLÍNICO CARDIOVASCULAR, 0302040048 ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE PRÉ/PÓS CIRURGIA CARDIOVASCULAR, 0303060034 TRATAMENTO DE CARDIOPATIA HIPERTROFICA, 0303060042 TRATAMENTO DE CARDIOPATIA ISQUEMICA CRONICA, 0303060190 TRATAMENTO DE INFARTO AGUDO DO MIOCÁRDIO, 0303060239 TRATAMENTO DE MIOCARDIOPATIAS, 0303130024 ATENDIMENTO A PACIENTE SOB CUIDADOS PROLONGADOS POR ENFERMIDADES CARDIOVASCULARES, 0303140062 TRATAMENTO DE CARDIOPATIA PULMONAR NAO ESPECIFICADA (COR PULMONALE)
+Período:2019-2022
+"Ano/mês atendimento";"AIH_aprovadas"
+"2018";29
+"..Novembro/2018";2
+"..Dezembro/2018";27
+"2019";484
+"..Janeiro/2019";45
+"..Fevereiro/2019";44
+"..Março/2019";51
+"..Abril/2019";42
+"..Maio/2019";36
+"..Junho/2019";39
+"..Julho/2019";60
+"..Agosto/2019";34
+"..Setembro/2019";26
+"..Outubro/2019";28
+"..Novembro/2019";29
+"..Dezembro/2019";50
+"2020";442
+"..Janeiro/2020";49
+"..Fevereiro/2020";63
+"..Março/2020";42
+"..Abril/2020";25
+"..Maio/2020";33
+"..Junho/2020";36
+"..Julho/2020";33
+"..Agosto/2020";38
+"..Setembro/2020";28
+"..Outubro/2020";23
+"..Novembro/2020";41
+"..Dezembro/2020";31
+"2021";417
+"  Janeiro/2021";20
+"  Fevereiro/2021";36
+"  Março/2021";24
+"  Abril/2021";22
+"  Maio/2021";28
+"  Junho/2021";14
+"  Julho/2021";41
+"  Agosto/2021";43
+"  Setembro/2021";40
+"  Outubro/2021";40
+"  Novembro/2021";52
+"  Dezembro/2021";57
+"2022";585
+"..Janeiro/2022";59
+"..Fevereiro/2022";43
+"..Março/2022";45
+"..Abril/2022";50
+"..Maio/2022";56
+"..Junho/2022";58
+"..Julho/2022";43
+"..Agosto/2022";38
+"..Setembro/2022";55
+"..Outubro/2022";57
+"..Novembro/2022";36
+"..Dezembro/2022";45
+"Total";1957
+ Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS)
+ Notas:
+ 
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.

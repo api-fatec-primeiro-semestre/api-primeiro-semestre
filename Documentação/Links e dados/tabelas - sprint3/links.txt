@@ -1,0 +1,38 @@
+1) Consultas Acessar o link https://sisaps.saude.gov.br/painelsaps/atendimento e filtrar pela cidade de interesse. No caso do nosso projeto, as cidades são São José dos Campos, Taubaté e Jacareí.
+
+Nesse link, conseguimos os dados referentes a:
+
+- Consultas gerais, para os anos de 2019, 2020, 2021 e 2022;
+
+- Consultas por Covid-19, para os anos de 2020,2021 e 2022;
+
+- Consultas por sintomas gripais, , para os anos de 2020,2021 e 2022.
+
+2) Tratamento - trombose
+- Acessar o link http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/qisp.def, em linha selecionar ano/mês atendimento, coluna deixar inativa, em conteúdo selecionar AIH aprovadas;
+- Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
+- Em seleções disponíveis, selecionar o município e em procedimentos selecionar TRATAMENTO DE TROMBOSE VENOSA PROFUNDA
+
+
+3) Procedimento - Aparelho circulatório
+- Acessar o link http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/qisp.def, em linha selecionar ano/mês atendimento, coluna deixar inativa, em conteúdo selecionar AIH aprovadas;
+- Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
+- Em seleções disponíveis, selecionar o município e em Subgrupo proced. selecionar Cirurgia do aparelho circulatório
+
+4) Tratamento - Aparelho respiratório:
+- Acessar o link http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sia/cnv/qasp.def, em linha selecionar ano/mês atendimento, coluna deixar inativa, em conteúdo selecionar Qtd. Aprovada;
+- Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
+- Em seleções disponíveis, selecionar o município e em procedimentos selecionar REABILITACAO CARDIORRESPIRATORIA DE PACIENTES POS COVID-19, 0302040013 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO RESPIRATORIO COM COMPLICACOES SISTEMICAS, 0302040021 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO RESPIRATORIO SEM COMPLICACOES SISTEMICAS, 0303140097 TRATAMENTO DE HEMORRAGIAS DAS VIAS RESPIRATORIAS, 0303140135 TRATAMENTO DE OUTRAS DOENCAS DO APARELHO RESPIRATORIO, 0308010027 TRATAMENTO DE EFEITOS DE ASFIXIA / OUTROS RISCOS A RESPIRACAO
+
+
+5) Procedimento - cardiopatias:
+- Acessar o link http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/qisp.def, em linha selecionar ano/mês atendimento, coluna deixar inativa, em conteúdo selecionar Qtd. aprovada;
+- Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
+- Em seleções disponíveis, selecionar o município, e em procedimentos selecionar ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO CLINICO CARDIOVASCULAR, 0302040048 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE PRE/POS CIRURGIA CARDIOVASCULAR, 0303060034 TRATAMENTO DE CARDIOPATIA HIPERTROFICA, 0303060042 TRATAMENTO DE CARDIOPATIA ISQUEMICA CRONICA, 0303060190 TRATAMENTO DE INFARTO AGUDO DO MIOCARDIO, 0303060239 TRATAMENTO DE MIOCARDIOPATIAS, 0303130024 ATENDIMENTO A PACIENTE SOB CUIDADOS PROLONGADOS POR ENFERMIDADES CARDIOVASCULARES, 0303140062 TRATAMENTO DE CARDIOPATIA PULMONAR NAO ESPECIFICADA (COR PULMONALE)
+
+
+LINKS
+https://public.tableau.com/app/profile/bireme/viz/sequelas-covid-pos-aguda-pt/evidence-map
+
+
+
