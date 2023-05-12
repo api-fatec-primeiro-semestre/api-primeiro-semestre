@@ -8,13 +8,13 @@ Nesse link, conseguimos os dados referentes a:
 
 - Consultas por sintomas gripais, , para os anos de 2020,2021 e 2022.
 
-2) Tratamento - trombose
+2) Tratamento - Trombose
 - Acessar o link http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/qisp.def, em linha selecionar ano/mês atendimento, coluna deixar inativa, em conteúdo selecionar AIH aprovadas;
 - Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
 - Em seleções disponíveis, selecionar o município e em procedimentos selecionar TRATAMENTO DE TROMBOSE VENOSA PROFUNDA
 
 
-3) Procedimento - Aparelho circulatório
+3) Procedimento - Cirurgia Aparelho circulatório
 - Acessar o link http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/qisp.def, em linha selecionar ano/mês atendimento, coluna deixar inativa, em conteúdo selecionar AIH aprovadas;
 - Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
 - Em seleções disponíveis, selecionar o município e em Subgrupo proced. selecionar Cirurgia do aparelho circulatório
@@ -25,11 +25,15 @@ Nesse link, conseguimos os dados referentes a:
 - Em seleções disponíveis, selecionar o município e em procedimentos selecionar REABILITACAO CARDIORRESPIRATORIA DE PACIENTES POS COVID-19, 0302040013 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO RESPIRATORIO COM COMPLICACOES SISTEMICAS, 0302040021 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO RESPIRATORIO SEM COMPLICACOES SISTEMICAS, 0303140097 TRATAMENTO DE HEMORRAGIAS DAS VIAS RESPIRATORIAS, 0303140135 TRATAMENTO DE OUTRAS DOENCAS DO APARELHO RESPIRATORIO, 0308010027 TRATAMENTO DE EFEITOS DE ASFIXIA / OUTROS RISCOS A RESPIRACAO
 
 
-5) Procedimento - cardiopatias:
+5) Procedimento - Cardiopatias:
 - Acessar o link http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/qisp.def, em linha selecionar ano/mês atendimento, coluna deixar inativa, em conteúdo selecionar Qtd. aprovada;
 - Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
 - Em seleções disponíveis, selecionar o município, e em procedimentos selecionar ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO CLINICO CARDIOVASCULAR, 0302040048 ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE PRE/POS CIRURGIA CARDIOVASCULAR, 0303060034 TRATAMENTO DE CARDIOPATIA HIPERTROFICA, 0303060042 TRATAMENTO DE CARDIOPATIA ISQUEMICA CRONICA, 0303060190 TRATAMENTO DE INFARTO AGUDO DO MIOCARDIO, 0303060239 TRATAMENTO DE MIOCARDIOPATIAS, 0303130024 ATENDIMENTO A PACIENTE SOB CUIDADOS PROLONGADOS POR ENFERMIDADES CARDIOVASCULARES, 0303140062 TRATAMENTO DE CARDIOPATIA PULMONAR NAO ESPECIFICADA (COR PULMONALE)
 
+6) Procedimento - Cirurgia torácica
+- Acessar o link http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/qisp.def, em linha selecionar ano/mês atendimento, coluna deixar inativa, em conteúdo selecionar Qtd. aprovada;
+- Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
+- Em seleções disponíveis, selecionar o município, e em Subgrupo proced. selecionar Cirurgia torácica.
 
 LINKS
 https://public.tableau.com/app/profile/bireme/viz/sequelas-covid-pos-aguda-pt/evidence-map
