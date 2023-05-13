@@ -1,0 +1,64 @@
+CNES - Recursos Físicos - Hospitalar - Leitos de internação - Brasil
+Quantidade existente por Ano/mês compet.
+Especialidade detalhada: ..Toráxica
+Período:2019-2022
+"Ano/mês compet.";"Quantidade_existente"
+"2019/Jan";1148
+"2019/Fev";1159
+"2019/Mar";1149
+"2019/Abr";1153
+"2019/Mai";1159
+"2019/Jun";1151
+"2019/Jul";1138
+"2019/Ago";1138
+"2019/Set";1132
+"2019/Out";1129
+"2019/Nov";1121
+"2019/Dez";1115
+"2020/Jan";1102
+"2020/Fev";1102
+"2020/Mar";1083
+"2020/Abr";1059
+"2020/Mai";1049
+"2020/Jun";1047
+"2020/Jul";1047
+"2020/Ago";1045
+"2020/Set";1030
+"2020/Out";1064
+"2020/Nov";1063
+"2020/Dez";1065
+"2021/Jan";1081
+"2021/Fev";1093
+"2021/Mar";1072
+"2021/Abr";1078
+"2021/Mai";1047
+"2021/Jun";1077
+"2021/Jul";1103
+"2021/Ago";1097
+"2021/Set";1112
+"2021/Out";1105
+"2021/Nov";1109
+"2021/Dez";1112
+"2022/Jan";1114
+"2022/Fev";1121
+"2022/Mar";1133
+"2022/Abr";1125
+"2022/Mai";1131
+"2022/Jun";1107
+"2022/Jul";1098
+"2022/Ago";1114
+"2022/Set";1126
+"2022/Out";1119
+"2022/Nov";1119
+"2022/Dez";1125
+ A partir da competência de Janeiro 2010 os dados referentes
+ a leitos Complementares foram retirados da consulta referente
+ a leitos de Internação, passando a constituir uma consulta específica conforme descrito na Nota Técnica.
+ Fonte: Ministério da Saúde - Cadastro Nacional dos Estabelecimentos de Saúde do Brasil - CNES
+ Nota:
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+ 
+ Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+ De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+ A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+ 
