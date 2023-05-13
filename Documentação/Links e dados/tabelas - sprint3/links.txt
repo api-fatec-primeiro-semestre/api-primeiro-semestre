@@ -35,6 +35,15 @@ Nesse link, conseguimos os dados referentes a:
 - Períodos disponíveis, selecionar os anos 2019, 2020, 2021 e 2022;
 - Em seleções disponíveis, selecionar o município, e em Subgrupo proced. selecionar Cirurgia torácica.
 
+7)	Procedimento - Internações gerais
+- Internações referentes às cidades de SJC, Jacareí e Taubaté, para os anos de 2019, 2020, 2021 e 2022;
+- Acessar o link http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/qisp.def, em "linha" selecionar ano/mês de atendimento, "coluna" deixar inativa, em "conteúdo" selecionar Internações, em "município" selecionar a cidade desejada.
+
+8)  Procedimento - Internações torácicas
+- Internações torácicas: relacionadas a traquéias, pulmões, pleuras, mediastino e parede torácica, referente às cidades de SJC, Jacareí e Lorena, nos anos de 2019, 2020, 2021 e 2022;
+- Acessar o link http://tabnet.datasus.gov.br/cgi/tabcgi.exe?cnes/cnv/leiintbr.def, em "linha" selecionar “Ano/mês compet.”, em "coluna" selecionar “não ativa”, em "conteúdo" selecionar “Quantidade existente”, em “períodos disponíveis” selecionar o período desejado, em municípios selecionar os municípios desejados e em “Especialidade detalhada” selecionar “..Torácica”. 
+
+
 LINKS
 https://public.tableau.com/app/profile/bireme/viz/sequelas-covid-pos-aguda-pt/evidence-map
 
