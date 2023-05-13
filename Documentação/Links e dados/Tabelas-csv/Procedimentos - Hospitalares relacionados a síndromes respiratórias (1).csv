@@ -1,0 +1,74 @@
+ Procedimentos hospitalares do SUS - por local de internação - São Paulo
+AIH aprovadas por Ano/mês atendimento
+Município: 355410 TAUBATE
+Procedimento: 0302040013 ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE COM TRANSTORNO RESPIRATÓRIO COM COMPLICAÇÕES SISTÊMICAS, 0302040021 ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE COM TRANSTORNO RESPIRATÓRIO SEM COMPLICAÇÕES SISTÊMICAS, 0303140097 TRATAMENTO DE HEMORRAGIAS DAS VIAS RESPIRATORIAS, 0303140135 TRATAMENTO DE OUTRAS DOENCAS DO APARELHO RESPIRATORIO
+Período:2019-2022
+"Ano/mês atendimento";"AIH_aprovadas"
+"2018";3
+"..Novembro/2018";2
+"..Dezembro/2018";1
+"2019";76
+"..Janeiro/2019";4
+"..Fevereiro/2019";1
+"..Março/2019";7
+"..Abril/2019";11
+"..Maio/2019";9
+"..Junho/2019";6
+"..Julho/2019";8
+"..Agosto/2019";7
+"..Setembro/2019";4
+"..Outubro/2019";5
+"..Novembro/2019";8
+"..Dezembro/2019";6
+"2020";64
+"..Janeiro/2020";6
+"..Fevereiro/2020";7
+"..Março/2020";3
+"..Abril/2020";5
+"..Maio/2020";4
+"..Junho/2020";2
+"..Julho/2020";8
+"..Agosto/2020";6
+"..Setembro/2020";9
+"..Outubro/2020";8
+"..Novembro/2020";3
+"..Dezembro/2020";3
+"2021";88
+"  Janeiro/2021";4
+"  Fevereiro/2021";6
+"  Março/2021";9
+"  Abril/2021";10
+"  Maio/2021";6
+"  Junho/2021";4
+"  Julho/2021";8
+"  Agosto/2021";8
+"  Setembro/2021";9
+"  Outubro/2021";11
+"  Novembro/2021";7
+"  Dezembro/2021";6
+"2022";112
+"..Janeiro/2022";6
+"..Fevereiro/2022";6
+"..Março/2022";11
+"..Abril/2022";10
+"..Maio/2022";10
+"..Junho/2022";12
+"..Julho/2022";6
+"..Agosto/2022";13
+"..Setembro/2022";10
+"..Outubro/2022";6
+"..Novembro/2022";12
+"..Dezembro/2022";10
+"Total";343
+ Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS)
+ Notas:
+ 
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.
