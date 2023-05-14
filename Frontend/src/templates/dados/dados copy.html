@@ -1,0 +1,119 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dados.css') }}">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+{% extends "index.html"%}
+{% block conteudo %}
+   <div class="DadosContainer">
+        <div class="titleWrapper">
+            <p class="text">Escolha uma categoria para a sua pesquisa:</p>
+        </div>
+
+        <form method="post" class="ButtonContainer">
+            <button 
+                type="submit" 
+                class="typeButton"
+                name="buttonType"
+                value="Consulta"
+            
+            >
+                <img class="imgCategory" src="../../static/img/consulta-1@2x.png" alt="Consulta">
+                Consulta
+            </button>
+
+            <button 
+                type="submit" 
+                class="typeButton"
+                name="buttonType"
+                value="Procedimento"
+            >
+                <img  class="imgCategory" src="../../static/img/procedimento.svg" alt="Procedimento"/>
+                Procedimento
+            </button>
+
+            <button 
+                type="submit" 
+                class="typeButton"
+                name="buttonType"
+                value="Tratamento"
+            >
+                <img  class="imgCategory" src="../../static/img/tratameto-1@2x.png" alt="Tratamento"/>
+                Tratamento
+                
+            </button>
+
+        </form>
+    <div class="infoContainer">
+
+        {% if resultado == 'Consulta' %}
+            <div>
+                <p>
+                    Texto sobre algumas relações pertinentes que já conseguimos identificar nos dados relativos à categoria escolhida, como uma pré-pesquisa, e que podem indicar a presença de covid longa.
+                <p>
+                    Seriam relações interessantes para o cliente explorar.
+                </p>    
+                <br>
+                <p>
+                    Selecione filtros para fazer uma pesquisa sobre consultas e os anos para comparação dos dados.
+                </p>
+            </div>
+
+            <form method="POST" class="searchContainer">
+
+                <div class="col-md-4 form-group">
+                    <select class="form-control" name='cidade' id="cidade">
+                        {%for cidade in Cidades%}
+                            <option value={{cidade}}>{{cidade}}</option>
+                        {%endfor%}
+                    </select>
+                </div>
+
+                <div class="col-md-4 form-group">
+                    <select class="form-control" name='consulta' id="consulta">
+                        {%for consulta in Consultas%}
+                            <option value={{consulta}}>{{consulta}}</option>
+                        {%endfor%}
+                    </select>
+                </div>
+
+                <div class="col-md-4 form-group">
+                    <select class="form-control" name='ano' id="ano">
+                        {%for ano in Anos%}
+                            <option value={{ano}}>{{ano}}</option>
+                        {%endfor%}
+                    </select>
+                </div>
+
+
+               
+                <button type="submit" class="btn btn-primary">Buscar</button>
+
+                <button type="button" class="buttonSearch">Redefinir</button>
+            </form>
+
+            {%if cidade == 'Jacarei' %}
+                {%include '/graficos/graficos.html'%}
+            {%endif%}
+
+
+        {% elif resultado == 'Procedimento' %}
+            <div>Oi</div>
+        {% elif resultado == 'Tratamento' %}
+            <div>oi</div>    
+        {%else%}
+            </>
+        {%endif %}
+    </div>
+   </div>
+   <script>
+    function enviarDados(){
+        console.log('HADUKEN!!!')
+        const cidade = document.getElementById("cidade").value;
+        const consulta = document.getElementById("consulta").value;
+        const ano = document.getElementById("ano").value;
+        const url = `/dados?cidade=${cidade}&consulta=${consulta}&ano=${ano}`;
+        window.location.href = url;
+        
+    }
+   </script>    
+{% endblock %}
+
