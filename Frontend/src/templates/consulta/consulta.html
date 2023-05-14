@@ -1,0 +1,70 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='consulta.css') }}">
+{% extends "dados/dados.html"%}
+{% block teste %}
+
+    <div class="infoContainer">
+        <div>
+            <p>
+                Texto sobre algumas relações pertinentes que já conseguimos identificar nos dados relativos à categoria escolhida, como uma pré-pesquisa, e que podem indicar a presença de covid longa.
+            <p>
+                Seriam relações interessantes para o cliente explorar.
+            </p>    
+            <br>
+            <p>
+                Selecione filtros para fazer uma pesquisa sobre consultas e os anos para comparação dos dados.
+            </p>
+        </div>
+
+        <form method="POST" class="searchContainer">
+
+            <div class="col-md-3 form-group">
+                <select class="form-control" name='cidade' id="cidade">
+                    {%for cidade in Cidades%}
+                        <option value={{cidade}}>{{cidade}}</option>
+                    {%endfor%}
+                </select>
+            </div>
+
+            <div class="col-md-3 form-group">
+                <select class="form-control" name='consulta' id="consulta">
+                    {%for consulta in Consultas%}
+                        <option value={{consulta}}>{{consulta}}</option>
+                    {%endfor%}
+                </select>
+            </div>
+
+            <div class="col-md-2 form-group">
+                <select class="form-control" name='ano' id="ano">
+                    {%for ano in Anos%}
+                        <option value={{ano}}>{{ano}}</option>
+                    {%endfor%}
+                </select>
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Buscar</button>
+
+        </form>
+        <canvas id="lineChart" width="900" height="400"></canvas>
+        <script>
+            var ctx = document.getElementById('lineChart').getContext("2d");
+            var lineChart = new Chart(ctx,{
+                type: 'line',
+                data:{
+                    labels: ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ' ],
+                    datasets: [
+                        {
+                            label: $('#consulta').val(),
+                            data: {{data | safe}},
+                            fill: false,
+                            borderColor: "#ce2a96ff",
+                            lineTension: 0.1
+                        }
+                    ]
+                },
+                options: {
+                    responsive: false
+                }
+            });
+        </script>
+    </div>
+{%endblock%}
