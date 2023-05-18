@@ -1,9 +1,13 @@
-.banner{
+.banner {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    background-image: url("../static/img/COVID 19 BANNER.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
 
 .card-container {
     display: flex;
@@ -14,13 +18,13 @@
 }
 
 .card1{
-    flex-basis: calc(45% - 1%);
+    flex-basis: calc(20% - 1%);
     margin: 0 3%;
     
 }
 
 .card2{
-    flex-basis: calc(45% - 1%);
+    flex-basis: calc(20% - 1%);
     margin: 0 3%;
 }
 
@@ -32,3 +36,22 @@ p {
 .covid {
     text-align: center;
 }
+
+.covidinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+  }
+
+  .box-container{
+
+  }
+
+  .box1{
+
+  }
+
+  .box2{
+    
+  }

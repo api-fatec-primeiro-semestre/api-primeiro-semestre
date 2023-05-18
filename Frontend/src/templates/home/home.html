@@ -1,12 +1,30 @@
 {% extends "index.html"%}
 {% block conteudo %}
 <div class="banner">
-    <img src="{{ url_for('static', filename='img/COVID 19 BANNER.png') }}" alt="banner" width="100%" height="55%">
+  <div class="left-box">
+    <h1>COVID-19</h1>
+    <P>dados informativos</P>
+    <p>sobre a covid longa</p>
+  </div>
+    <img class="covidinho" src= "{{ url_for('static', filename='img/icone.png') }}">
+  <div class="right-box">
+    <div class="card1">
+      <p>-Consultas</p>
+      <p>-Tratamentos</p>
+      <p>-Procedimentos</p>
+      <p>-Medicamentos</p>
+    </div>
+    <div class="card2">
+      <p>-Gastos</p>
+      <p>-Investimentos</p>
+      <p>-Prejuízos</p>
+      <p>-Perspectiva</p>
+      <p>financeira</p>
+    </div>
+  </div>
 </div>
-
 <hr>
 <br><h1 class="covid">COVID-19</h1><br>
-<p></p>
 <p>A COVID-19 é uma doença causada pelo coronavírus SARS-CoV-2 
     e que teve início em dezembro de 2019 na cidade de Wuhan, na China.
     Desde então, o vírus se espalhou rapidamente por todo o mundo, se 
@@ -29,7 +47,7 @@ em casos extremos, à morte.
 <hr>
 <br>
 <div class="card-container">
-    
+  <div id="rectangle"></div>
     <div class="card1">
       <img src="{{ url_for('static', filename='img/card1.png') }}" alt="card1"width="100%" height="100%">
     </div>
@@ -37,4 +55,5 @@ em casos extremos, à morte.
     <div class="card2">
       <img src="{{ url_for('static', filename='img/card2.png') }}" alt="card2"width="100%" height="100%">
     </div>
+  </div>
 {%endblock%}
