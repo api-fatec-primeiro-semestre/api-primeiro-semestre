@@ -28,9 +28,9 @@ def csv_to_json(arquivo_csv, cidade, ano):
         label = [row[0] for row in json_data]
         print('label: ', label)
     elif cidade == 'Taubate' :
-        label = [row[3] for row in json_data]
-    else:
         label = [row[2] for row in json_data]
+    else:
+        label = [row[1] for row in json_data]
     return label
 
 #########
