@@ -8,14 +8,47 @@
     background-position: center center;
   }
   
-
-.card-container {
+.left-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    color: aliceblue;
+    width: 400px;
+    height: 180px;
+    position: relative;
+    left: -160px;
+    z-index: 1;
 }
+
+
+.card1 {
+    line-height: 18px;
+    width: 250px;
+    height: 180px;
+    background-color: #ffd7a9;
+    border-radius: 45px;
+    padding: 10px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 40px;
+    right: -220px;
+    z-index: 1;
+  }
+  
+  .card2 {
+    line-height: 18px;
+    width: 250px;
+    height: 215px;
+    background-color: #ffd7a9;
+    border-radius: 45px;
+    padding: 10px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -40px;
+    right: -40px;
+  }
 
 .card1{
     flex-basis: calc(20% - 1%);
@@ -42,16 +75,45 @@ p {
     justify-content: center;
     align-items: center;
     width: 450px;
+    position: relative;
+    right: 70px;
   }
 
-  .box-container{
+#covid19 {
+    font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
-  }
+#dadinhos{
+    font-size: 36px;
+    line-height: 35px;
+}
 
-  .box1{
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-  }
+.caixa1{
+    color: aliceblue;
+    background-color: #a897e7;
+    outline: 6px dashed rgb(201, 198, 206);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    position:relative;
+    right: -200px;
+}
 
-  .box2{
-    
-  }
+.caixa2{
+    color: aliceblue;
+    background-color: #e48b8d;
+    outline: 6px dashed rgb(201, 198, 206);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    position:relative;
+    left: 1200px;
+}

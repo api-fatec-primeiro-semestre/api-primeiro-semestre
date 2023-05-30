@@ -2,19 +2,21 @@
 {% block conteudo %}
 <div class="banner">
   <div class="left-box">
-    <h1>COVID-19</h1>
-    <P>dados informativos</P>
-    <p>sobre a covid longa</p>
+    <h1 id="covid19">COVID-19</h1>
+    <P id="dadinhos">Dados informativos</P>
+    <p id="dadinhos">sobre a covid longa</p>
   </div>
     <img class="covidinho" src= "{{ url_for('static', filename='img/icone.png') }}">
   <div class="right-box">
     <div class="card1">
+      <br> 
       <p>-Consultas</p>
       <p>-Tratamentos</p>
       <p>-Procedimentos</p>
       <p>-Medicamentos</p>
     </div>
     <div class="card2">
+      <br>
       <p>-Gastos</p>
       <p>-Investimentos</p>
       <p>-Prejuízos</p>
@@ -48,12 +50,12 @@ em casos extremos, à morte.
 <br>
 <div class="card-container">
   <div id="rectangle"></div>
-    <div class="card1">
-      <img src="{{ url_for('static', filename='img/card1.png') }}" alt="card1"width="100%" height="100%">
+    <div class="caixa1">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus officia ab asperiores. Eaque itaque possimus alias ea commodi fugit optio, cumque aspernatur eos rem in ipsam earum vero id incidunt?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore vitae aliquam illum autem minus recusandae, eveniet pariatur optio, sunt voluptatum assumenda consectetur eos cupiditate natus voluptatem, rem ipsam repellendus totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem culpa quaerat exercitationem, fuga ab, quasi beatae voluptatibus itaque unde debitis aperiam magni minus alias totam cumque voluptatem deserunt aspernatur?
     </div>
 
-    <div class="card2">
-      <img src="{{ url_for('static', filename='img/card2.png') }}" alt="card2"width="100%" height="100%">
+    <div class="caixa2">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus officia ab asperiores. Eaque itaque possimus alias ea commodi fugit optio, cumque aspernatur eos rem in ipsam earum vero id incidunt?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore vitae aliquam illum autem minus recusandae, eveniet pariatur optio, sunt voluptatum assumenda consectetur eos cupiditate natus voluptatem, rem ipsam repellendus totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem culpa quaerat exercitationem, fuga ab, quasi beatae voluptatibus itaque unde debitis aperiam magni minus alias totam cumque voluptatem deserunt aspernatur?
     </div>
   </div>
 {%endblock%}
