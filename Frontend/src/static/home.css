@@ -50,17 +50,6 @@
     right: -40px;
   }
 
-.card1{
-    flex-basis: calc(20% - 1%);
-    margin: 0 3%;
-    
-}
-
-.card2{
-    flex-basis: calc(20% - 1%);
-    margin: 0 3%;
-}
-
 p {
     margin: 10%;
     font-size: 20px;
@@ -74,9 +63,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
-    position: relative;
-    right: 70px;
+    width: 80%;
+    max-width: 410px;
+    margin-left: -145px;
+    position:static;
   }
 
 #covid19 {
@@ -103,8 +93,8 @@ p {
     border-radius: 10px;
     padding: 20px;
     width: 300px;
-    position:relative;
-    right: -200px;
+    flex: 1;
+    margin: 0 3% 0 10%;
 }
 
 .caixa2{
@@ -114,6 +104,15 @@ p {
     border-radius: 10px;
     padding: 20px;
     width: 300px;
-    position:relative;
-    left: 1200px;
+    flex: 1;
+    margin: 0 10% 0 3%;
+}
+
+.special{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
