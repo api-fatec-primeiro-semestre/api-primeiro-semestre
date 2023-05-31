@@ -1,3 +1,8 @@
+.corpo {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .imagem1{
     border-radius: 30px;
     align-self: center;
@@ -96,4 +101,10 @@ p{
     margin-left: 17%;
     padding-bottom: 1%; 
     padding-top: 2%;
+  }
+
+  .jornalisticamentefalando{
+    position:relative;
+       bottom:150px;
+       left:150px;
   }
