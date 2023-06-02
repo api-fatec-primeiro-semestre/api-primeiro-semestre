@@ -58,24 +58,47 @@
   padding: 4%
 }
 
+
+.jornalisticamentefalando{
+  position:relative;
+     bottom:150px;
+     left:150px;
+}
+
+.Metas {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-image: linear-gradient(180deg, #FFC076 0%, #FF9999 100%);
+  padding: 4%;
+  width: 100%;
+  border-style: solid;
+  border-color: #FF9999;
+}
+
 .metasprojeto{
-   background-color:#d0d0d0;
+  background-color: #ffffff;
    text-align:center; 
    margin-top: 2%; 
    margin-left: 20%;
    margin-right: 20%; 
    padding-bottom: 1%; 
    padding-top: 1%; 
-   border-radius: 30px
+   border-radius: 30px;
+   font-size: 100%;
   }
 
-  .jornalisticamentefalando{
-    position:relative;
-       bottom:150px;
-       left:150px;
-  }
-
-
+.titulo-meta {
+  background-color: #ffffff;
+  font-size: 200%;
+  text-align: center;
+  padding: 5%;
+  border-radius: 15% ;
+  margin-left: 0%;
+ 
+}
 
 .quem_somos {
   display: flex;
