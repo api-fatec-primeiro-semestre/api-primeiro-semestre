@@ -3,6 +3,27 @@
   padding-right: 10%;
 }
 
+.Titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: aliceblue;
+ margin: 1%
+}
+
+.Titulo h1 {
+  text-align: center;
+  font-size: 200%;
+  padding: 4%;
+  border-width: 15px;
+  border-radius: 20%;
+  border-color: aquamarine;
+  border-style: outset;
+  width: 70%;
+}
+
+
 .imagem1{
     border-radius: 30px;
     align-self: center;
@@ -57,11 +78,11 @@
   font-size: 2vw;
 }
 
-.titulo {
+.titulos {
   width: 40%;
 }
 
-.titulo h1{
+.titulos h1{
  font-size: 300%;
  text-align: center;
  background-color: aliceblue;
@@ -74,7 +95,7 @@
  margin-top: 25%;
 }
 
-.titulo h2 {
+.titulos h2 {
   font-size: 200%;
   text-align: center;
   background-color: aquamarine;
@@ -83,7 +104,7 @@
 
 }
 
-.titulo h3 {
+.titulos h3 {
   width: 100%;
   font-size: 200%;
   text-align: center;
