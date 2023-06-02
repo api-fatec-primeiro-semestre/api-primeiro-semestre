@@ -61,11 +61,17 @@
     <div class="cargos">
         <img src="{{ url_for ( 'static', filename='img/lilian.jpg') }}" alt="P.O. do Projeto">
 
-        <p>Product Owner: Lilian Ferrão</p>
+        <p>
+            Product Owner: Lilian Ferrão <br>
+        <a href="https://github.com/lilianferrao" target="_blank">Acesse o Github do desenvolvedor</a>
+        </p>
     </div>
 
     <div class="cargos">
-        <p>Scrum Master: Rodrigo Augusto</p>
+        <p>
+            Scrum Master: Rodrigo Augusto <br>
+        <a href="https://github.com/rodrigoaslima" target="_blank">Acesse o Github do desenvolvedor</a>
+        </p>
 
         <img src="{{ url_for ( 'static', filename='img/rodrigo.jpeg' ) }}" alt="P.O. do Projeto">
     </div>
@@ -80,21 +86,30 @@
         <div class="column">
 
             <div class="dev">
-                <p>Bruno</p>
-                <a href=""></a>
-                <img src="{{ url_for ( 'static', filename='img/bruno.jpeg' ) }}" alt="Dev_Bruno">
+                <p>
+                    Bruno <br>
+                    <a href="https://github.com/BrunoFerCam" target="_blank">Acesse o Github do desenvolvedor</a>
+                </p>
+
+                    <img src="{{ url_for ( 'static', filename='img/bruno.jpeg' ) }}" alt="Dev_Bruno">
             </div>
 
             <div class="dev">
-                <p>Douglas</p>
-                <a href=""></a>
-                <img src="{{ url_for ( 'static', filename='img/douglas.jpeg' ) }}" alt="Dev_Bruno">
+                <p>
+                    Douglas <br>
+                    <a href="https://github.com/DouglasMedeiros1" target="_blank">Acesse o Github do desenvolvedor</a>
+                </p>
+
+                    <img src="{{ url_for ( 'static', filename='img/douglas.jpeg' ) }}" alt="Dev_Bruno">
             </div>
 
             <div class="dev">
-                <p>Maria</p>
-                <a href=""></a>
-                <img src="{{ url_for ( 'static', filename='img/gabi.jpeg' ) }}" alt="Dev_Bruno">
+                <p>
+                    Maria <br>
+                    <a href="https://github.com/MariaGabrielaMello" target="_blank">Acesse o Github do desenvolvedor</a>
+                </p>
+
+                    <img src="{{ url_for ( 'static', filename='img/gabi.jpeg' ) }}" alt="Dev_Bruno">
             </div>
 
         </div>
@@ -103,19 +118,28 @@
         <div class="column">
 
             <div class="dev">
-                <p>Katiane</p>
+                <p>
+                    Katiane <br>
+                    <a href="https://github.com/Katianefatec" target="_blank">Acesse o Github do desenvolvedor</a>
+                </p>
 
                 <img src="{{ url_for ( 'static', filename='img/katiane.jpeg' ) }}" alt="Dev_Bruno">
             </div>
 
             <div class="dev">
-                <p>Marcus</p>
+                <p>
+                    Marcus <br>
+                    <a href="https://github.com/marcusvbe" target="_blank">Acesse o Github do desenvolvedor</a>
+                </p>
 
-                <img src="{{ url_for ( 'static', filename='img/marcus.jpeg' ) }}" alt="Dev_Bruno">
+                    <img src="{{ url_for ( 'static', filename='img/marcus.jpeg' ) }}" alt="Dev_Bruno">
             </div>
 
             <div class="dev">
-                <p>Vitor</p>
+                <p>
+                    Vitor <br>
+                    <a href="https://github.com/haikizinho" target="_blank">Acesse o Github do desenvolvedor</a>
+                </p>
 
                 <img src="{{ url_for ( 'static', filename='img/vitor.jpeg' ) }}" alt="Dev_Bruno">
             </div>
@@ -124,13 +148,21 @@
 
 
     </div>
-</div>
 
-<div class="contato">
-    <div class="github">
 
+    <div class="contato">
+        <div class="titulo">
+            <h3>Github do Projeto</h3>
+            <a href="https://github.com/api-fatec-primeiro-semestre/api-primeiro-semestre" target="_blank"><img src="{{ url_for ( 'static', filename='img/qr-code.png' ) }}" alt="Qrcode do Github"></a>
+            
+        </div>
+    
+        
     </div>
+
 </div>
+
+
 
 {% endblock %}
 
