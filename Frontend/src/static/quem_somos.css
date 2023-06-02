@@ -62,7 +62,7 @@
 }
 
 .titulo h1{
- font-size: 350%;
+ font-size: 300%;
  text-align: center;
  background-color: aliceblue;
  padding: 10%;
@@ -75,7 +75,7 @@
 }
 
 .titulo h2 {
-  font-size: 250%;
+  font-size: 200%;
   text-align: center;
   background-color: aquamarine;
   padding: 10%;
@@ -85,7 +85,7 @@
 
 .titulo h3 {
   width: 100%;
-  font-size: 250%;
+  font-size: 200%;
   text-align: center;
   background-color: #ffffff;
   background-color: aqua;
@@ -119,13 +119,13 @@
 .cargos p {
   text-align: center;
   width: 60%;
-  font-size:100%;
-  padding-top: 7%;
+  font-size:150%;
+  padding-top: 4%;
 }
 
 .quem_somos a {
   width: 60%;
-  font-size: 75%;
+  font-size: 100%;
 }
 
 .dev_team {
@@ -154,7 +154,7 @@
 }
 
 .dev img {
-  width: 30%;
+  width: 40%;
   border-radius: 10%;
   border-width: 5px;
   border-style: inset;
@@ -164,7 +164,7 @@
 
 .dev p {
   width: 50%;
-  font-size: 80%;
+  font-size: 100%;
   padding-bottom: 7%;
 }
 
