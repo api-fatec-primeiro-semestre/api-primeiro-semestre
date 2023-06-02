@@ -17,7 +17,7 @@
   padding: 4%;
   border-width: 15px;
   border-radius: 25%;
-  border-color: aquamarine;
+  border-color: #00D2AD;
   border-style: outset;
   width: 70%;
 }
@@ -36,11 +36,12 @@
   width: 75%;
   padding: 2%;
   background-color: #d0d0d0;
+  margin-bottom: 20%;
 }
 
 .jornal_falando {
   text-align: center;
-  background-color: #009771;
+  background-color: #00D2AD;
   margin-top: 4%; 
   size: 5px; 
   border-radius: 50px; 
@@ -48,7 +49,15 @@
   min-width: 75%;
   margin-left: 9%;
   padding: 2%;
+  position: absolute;
+  top:135%;
+  left: 0%;
+  border-width: 5%;
+  border-style: solid;
+  border-color: #01ac8c;
 }
+
+
 
 .texto_jornal {
   margin-left: 5%;
@@ -56,13 +65,6 @@
    border-radius: 25%;
   width: 90%;
   padding: 4%
-}
-
-
-.jornalisticamentefalando{
-  position:relative;
-     bottom:150px;
-     left:150px;
 }
 
 .Metas {
@@ -120,7 +122,7 @@
  border-width: 10px;
  border-style: inset;
  border-radius: 15%;
- border-color: aquamarine;
+ border-color: #00D2AD;
  margin: 5%;
  margin-top: 25%;
 }
@@ -139,8 +141,8 @@
   font-size: 200%;
   text-align: center;
   background-color: #ffffff;
-  background-color: aqua;
-  border-color: rgb(127, 187, 255);
+  background-color: #00D2AD;
+  border-color: #00b392;
   border-width: 5px;
   border-style: double;
   border-radius: 190% ;
@@ -164,7 +166,7 @@
   border-width: 10px;
   border-style: inset;
   border-radius: 25%;
-  border-color: aquamarine;
+  border-color: #00D2AD;
 }
 
 .cargos p {
@@ -209,7 +211,7 @@
   border-radius: 10%;
   border-width: 5px;
   border-style: inset;
-  border-color: aquamarine;
+  border-color: #00D2AD;
  margin: 1%;
 }
 
@@ -231,7 +233,7 @@
 .contato img {
   width: 110%;
   padding: 5%;
-  border-color: rgb(127, 187, 255);
+  border-color: #01ac8c;
   border-width: 10px;
   border-style: double;
   border-radius: 15%;
