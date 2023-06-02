@@ -8,8 +8,6 @@
 
     <div style="background-color:#d0d0d0;text-align:center; margin-top: 0%; size: 5px; padding-bottom: 1%; padding-top: 1%;">
 
-    <img class="imagem1" src="../../static/img/propostadoprojeto.jpg" alt="proposta do projeto">
-
     </div>
 
 <p class="texto">
@@ -29,8 +27,6 @@
     
     
 
-    <div style="background-color:#9bcac0;text-align:center; margin-top: 4%; size: 10px; padding-top: 1%; padding-bottom: 1%; border-radius: 50px">
-        <div class = "jornalisticamentefalando">
            <div style ="background-color: #009771; margin-top: 4%; size: 5px; padding-top: 1%; padding-bottom: 1%; border-radius: 50px; max-width: 24%; margin-left: 9%;"><h2>Jornalisticamente falando</h2></div>
         </div>
     <p class="texto">
@@ -38,7 +34,6 @@
     </p>
     </div>
 
-    <img class="imagem3" src="../../static/img/metasdoprojeto.jpg" alt="metas do projeto">
 
     <div class="metasprojeto">
         <p class="textoprojeto">1. Agrupar dados sobre contaminações, internações e óbitos das cidades de São José dos Campos, Jacareí e Taubaté, referentes a Covid-19. </p>
@@ -53,34 +48,89 @@
     <div class="metasprojeto">
         <p class="textoprojeto">3. Analisar os dados obtidos e comparar com os dados sobre a sindrome respiratória e trombose dos anos de 2020 a 2022 para determinar a possível existencia da sindrome da Covid-longa.</p>
     </div>
+</div>
+
+  
+<div class="quem_somos">
+
     
-    <div>
-      <img class="imgquemsomos" src="../../static/img/quemsomos.jpg" alt="quem somos">
+    <div class="titulo">
+        <h1>Quem Somos?</h1>
     </div>
 
-    <img class="lilian" src="../../static/img/lilian.jpg" alt="foto lilian">
+    <div class="cargos">
+        <img src="{{ url_for ( 'static', filename='img/lilian.jpg') }}" alt="P.O. do Projeto">
 
-    <div style="background-color:#d0d0d0; text-align:center; margin-top: 2%; margin-bottom: 5%; margin-left: 600px; margin-right: 400px; padding-bottom: 1%; padding-top: 1%; border-radius: 30px">
-       <h2 id="pessoas">Product Owner: Lilian Ferrão</h2> 
+        <p>Product Owner: Lilian Ferrão</p>
     </div>
 
-    <img class="vitor" src="../../static/img/vitor.jpeg" alt="foto vitor">
+    <div class="cargos">
+        <p>Scrum Master: Rodrigo Augusto</p>
 
-    <div style="background-color:#d0d0d0; text-align:center; margin-top: 2%; margin-bottom: 2%; margin-left: 400px; margin-right: 600px; padding-bottom: 1%; padding-top: 1%; border-radius: 30px">
-        
-        <h2 id="pessoas">Scrum Master: Vitor Leandro</h2> 
-     </div>
-     
-     <img class="development" src="../../static/img/developmentteam.jpg" alt="development team">
-    
-     <div>
+        <img src="{{ url_for ( 'static', filename='img/rodrigo.jpeg' ) }}" alt="P.O. do Projeto">
+    </div>
 
-        <img class="team" src="../../static/img/scrumteam.jpg" alt="scrum team">
+
+    <div class="titulo">
+        <h2>Development Team</h2>
+    </div>
+
+    <div class="dev_team">
+
+        <div class="column">
+
+            <div class="dev">
+                <p>Bruno</p>
+                <a href=""></a>
+                <img src="{{ url_for ( 'static', filename='img/bruno.jpeg' ) }}" alt="Dev_Bruno">
+            </div>
+
+            <div class="dev">
+                <p>Douglas</p>
+                <a href=""></a>
+                <img src="{{ url_for ( 'static', filename='img/douglas.jpeg' ) }}" alt="Dev_Bruno">
+            </div>
+
+            <div class="dev">
+                <p>Maria</p>
+                <a href=""></a>
+                <img src="{{ url_for ( 'static', filename='img/gabi.jpeg' ) }}" alt="Dev_Bruno">
+            </div>
+
+        </div>
+
+
+        <div class="column">
+
+            <div class="dev">
+                <p>Katiane</p>
+
+                <img src="{{ url_for ( 'static', filename='img/katiane.jpeg' ) }}" alt="Dev_Bruno">
+            </div>
+
+            <div class="dev">
+                <p>Marcus</p>
+
+                <img src="{{ url_for ( 'static', filename='img/marcus.jpeg' ) }}" alt="Dev_Bruno">
+            </div>
+
+            <div class="dev">
+                <p>Vitor</p>
+
+                <img src="{{ url_for ( 'static', filename='img/vitor.jpeg' ) }}" alt="Dev_Bruno">
+            </div>
+
+        </div>
+
 
     </div>
 </div>
 
-  
+<div class="contato">
+    <div class="github">
+
+    </div>
+</div>
 
 {% endblock %}
 

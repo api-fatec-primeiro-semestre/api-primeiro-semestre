@@ -1,4 +1,4 @@
-.corpo {
+.Corpo {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -21,41 +21,7 @@
     width: 340px;
   }
 
-  .imagem3{
-    border-radius: 30px;
-    align-self: center;
-    margin-top: 60px;
-    margin-bottom: 0;
-    margin-left: 35%;
-    width: 400px;
-    width: 500px;
-  }
-
-  .vitor{
-    border-radius: 30px;
-    align-self: center;
-    margin-top: 0px;
-    margin-bottom: -140px;
-    margin-left: 65%;
-    width: 100px
-  }
-
-  .lilian{
-    border-radius: 30px;
-    align-self: center;
-    margin-top: 0px;
-    margin-bottom: -130px;
-    margin-left: 30%;
-    width: 100px
-  }
-
-p{
-  text-align: justify;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 150%;
-}
-
+  
 .textoprojeto{
   text-align: justify;
   margin-left: 10%;
@@ -75,36 +41,112 @@ p{
    border-radius: 30px
   }
 
-.imgquemsomos{
-    border-radius: 30px;
-    align-self: center;
-    margin-top: 60px;
-    margin-bottom: 2%;
-    margin-left: 40%;
-    width: 350px;
-  }
-
-.development{
-  text-align:center; 
-  margin-top: 2%; 
-  margin-left: 25%;
-  margin-right: 20%; 
-  padding-bottom: 1%; 
-  padding-top: 2%;
-  size: 80%
-  }
-
-  .team{
-    text-align:center; 
-    margin-top: 2%; 
-    margin-right: 30%; 
-    margin-left: 17%;
-    padding-bottom: 1%; 
-    padding-top: 2%;
-  }
-
   .jornalisticamentefalando{
     position:relative;
        bottom:150px;
        left:150px;
   }
+
+
+
+.quem_somos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-rendering: auto;
+  font-size: 2vw;
+}
+
+.titulo {
+  width: 40%;
+}
+
+.titulo h1{
+ font-size: 72px;
+ text-align: center;
+ background-color: aliceblue;
+ padding: 10%;
+ border-width: 10px;
+ border-style: inset;
+ border-radius: 25%;
+ border-color: aquamarine;
+ margin: 5%;
+ margin-top: 25%;
+}
+
+.titulo h2 {
+  font-size: 52px;
+  text-align: center;
+  background-color: aquamarine;
+  padding: 10%;
+  border-radius: 40% ;
+
+}
+
+
+.cargos {
+  width: 80%;
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  background-color: #d0d0d0;
+  border-radius: 30%;
+
+}
+
+.cargos img {
+  width: 20%;
+  height: 30%;
+  border-width: 10px;
+  border-style: inset;
+  border-radius: 25%;
+  border-color: aquamarine;
+}
+
+.cargos p {
+  width: 60%;
+  font-size: 36px;
+  padding-top: 7%;
+}
+
+.dev_team {
+  width: 75%;
+  display: flex;
+  background-color: #d0d0d0;
+  border-radius: 15%;
+  padding: 5%;
+  margin-top: 5%;
+
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 2%;
+}
+
+.dev {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  margin: 2%;
+}
+
+.dev img {
+  width: 30%;
+  border-radius: 10%;
+  border-width: 5px;
+  border-style: inset;
+  border-color: aquamarine;
+ margin: 1%;
+}
+
+.dev p {
+  width: 50%;
+  font-size: 36px;
+  display: flex;
+  align-items: end;
+  padding-bottom: 7%;
+}
