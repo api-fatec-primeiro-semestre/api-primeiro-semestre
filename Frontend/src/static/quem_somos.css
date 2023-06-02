@@ -1,6 +1,5 @@
-.Corpo {
-  padding-left: 10%;
-  padding-right: 10%;
+.Proposta_Projeto {
+ margin: 10%
 }
 
 .Titulo {
@@ -23,32 +22,40 @@
   width: 70%;
 }
 
-
-.imagem1{
-    border-radius: 30px;
-    align-self: center;
-    margin-top: 10px;
-    margin-bottom: 0;
-    width: 400px;
-    width: 500px;
-  }
-
-  .imagem2{
-    border-radius: 30px;
-    align-self: center;
-    margin-top: -50px;
-    margin-bottom: 0;
-    margin-right: 800px;
-    width: 340px;
-  }
-
   
-.textoprojeto{
-  text-align: justify;
-  margin-left: 10%;
-  margin-right: 10%;
+.introdução p{
+  text-align: center;
   font-size: 150%;
-  font-style: oblique
+  margin: 3%;
+}
+
+.texto {padding-left: 15%;}
+
+.texto p {
+  border-radius: 15%;
+  width: 75%;
+  padding: 2%
+
+}
+
+.jornal_falando {
+  text-align: center;
+  background-color: #FF9999;
+  margin-top: 4%; 
+  size: 5px; 
+  border-radius: 50px; 
+  width: 25%; 
+  min-width: 75%;
+  margin-left: 9%;
+  padding: 2%;
+}
+
+.texto_jornal {
+  margin-left: 5%;
+  background-image: linear-gradient(180deg, #FFC076 0%, #FF9999 100%);
+  border-radius: 35%;
+  width: 90%;
+  padding: 3%
 }
 
 .metasprojeto{
@@ -98,9 +105,9 @@
 .titulos h2 {
   font-size: 200%;
   text-align: center;
-  background-color: aquamarine;
+  background-image: linear-gradient(180deg, #00D2AD 0%, #C5AAFF 100%);;
   padding: 10%;
-  border-radius: 30% ;
+  border-radius: 35% ;
 
 }
 
@@ -113,7 +120,7 @@
   border-color: rgb(127, 187, 255);
   border-width: 5px;
   border-style: double;
-  border-radius: 75% ;
+  border-radius: 190% ;
   padding: 10%;
   margin: 5%;
 }
