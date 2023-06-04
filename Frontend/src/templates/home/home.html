@@ -1,12 +1,34 @@
 {% extends "index.html"%}
 {% block conteudo %}
 <div class="banner">
-    <img src="{{ url_for('static', filename='img/COVID 19 BANNER.png') }}" alt="banner" width="100%" height="55%">
+  <div class="left-box">
+    <h1 id="covid19">COVID-19</h1>
+    <P id="dadinhos">Dados informativos</P>
+    <p id="dadinhos">sobre a covid longa</p>
+  </div>
+  <div class="covidinho-container">
+    <img class="covidinho" src= "{{ url_for('static', filename='img/icone.png') }}">
+  </div>
+  <div class="right-box">
+    <div class="card1">
+      <br> 
+      <p>-Consultas</p>
+      <p>-Tratamentos</p>
+      <p>-Procedimentos</p>
+      <p>-Medicamentos</p>
+    </div>
+    <div class="card2">
+      <br>
+      <p>-Gastos</p>
+      <p>-Investimentos</p>
+      <p>-Prejuízos</p>
+      <p>-Perspectiva</p>
+      <p>financeira</p>
+    </div>
+  </div>
 </div>
-
 <hr>
 <br><h1 class="covid">COVID-19</h1><br>
-<p></p>
 <p>A COVID-19 é uma doença causada pelo coronavírus SARS-CoV-2 
     e que teve início em dezembro de 2019 na cidade de Wuhan, na China.
     Desde então, o vírus se espalhou rapidamente por todo o mundo, se 
@@ -28,13 +50,22 @@ em casos extremos, à morte.
 <br>
 <hr>
 <br>
-<div class="card-container">
-    
-    <div class="card1">
-      <img src="{{ url_for('static', filename='img/card1.png') }}" alt="card1"width="100%" height="100%">
-    </div>
+<div class="title-container">
+  <div class="title1">como identificar a covid 19 ?</div>
+  <div class="caixa1">
+    <p class="sla">A covid 19 é uma doença que tem assolado o mundo nos últimos anos, um vírus aeróbio perigosíssimo que tem uma, capacidade de transmissão e evolução incrível. Os sintoma variam de pessoa para pessoa, indo de leves tosses e cansaço, até falhas no sistema respiratório que podem levar á necessidade de assistência respiratória e, em muitos casos, a morte.</p>
+    <p class="sla">Como a transmissão da Covid se dá pelo meio aéreo, é de suma importância seguir os protocolos de saúde, como o uso de máscaras e de álcool em gel, além do principal sendo o distanciamento social.</p>
+    <p class="sla">O único método concreto de prevenção da covid é a vacinação, que ajuda o sistema imunológico a resistir ao vírus invasor. As vacinas têm sido o que permitiu que o mundo retornasse a seu estado regular, terminando os lockdowns ocorridos durante a pandemia.</p>
+  </div>
+</div>
 
-    <div class="card2">
-      <img src="{{ url_for('static', filename='img/card2.png') }}" alt="card2"width="100%" height="100%">
-    </div>
+<div class="title-container">
+  <div class="title2">como identificar a covid longa ?</div>
+  <div class="caixa2">
+    <p class="sla">A covid longa não é exatamente uma doença própria, mas sim uma série de sequelas e repercussões dos sintomas da covid-19 em sistemas imunológicos que foram afetados a longo prazo pela doença. O ciclo da covid geralmente dura até 3 semanas para a melhora dos sintomas. Com isso, sintomas que durem mais de 4 semanas se encaixam nas definições da covid longa.</p>
+    <p class="sla">Esses sintomas são bem menos severos que os da infecção regular da covid, mas ainda merecem a devida atenção, já que os sintomas incluem febre, falta de ar, dor de cabeça, tonturas e até palpitações cardíacas.</p>
+    <p class="sla">Ainda não há testes para reconhecer a covid longa, então reconhecê-la em sua plenitude é uma tarefa muito difícil, já que seus sintomas podem ser confundidos também com os de outras doenças comuns, como o resfriado e a gripe comum.</p>
+  </div>
+</div>
+
 {%endblock%}
