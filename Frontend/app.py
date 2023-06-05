@@ -1,3 +1,5 @@
+import json
+import numpy as np
 from flask import Flask, render_template, request
 import pandas as pd
 
@@ -18,19 +20,36 @@ data = []
 
 def csv_to_json(arquivo_csv, cidade, ano):
     csv_path = app.static_folder + '\\arquivos\\'+ano+'\\'+arquivo_csv+'.csv'
-    print(csv_path)
+    covid_path = app.static_folder + '\\arquivos\\'+ano+'\\''casos_de_covid.csv' 
 
     df = pd.read_csv(csv_path)
+    covid_df = pd.read_csv(covid_path)
     json_data = df.to_numpy()
+    covid_json_data = covid_df.to_numpy()
     
     if cidade == 'Jacarei' :
         label = [row[0] for row in json_data]
-        print('label: ', label)
+        covid = [row[0] for row in covid_json_data]
+        data = {
+            'covid': covid,
+            'grafico': label
+        }
     elif cidade == 'Taubate' :
         label = [row[2] for row in json_data]
+        covid = [row[2] for row in covid_json_data]
+        data = {
+            'covid': covid,
+            'grafico': label
+        }
     else:
         label = [row[1] for row in json_data]
-    return label
+        covid = [row[1] for row in covid_json_data]
+        data = {
+            'covid': covid,
+            'grafico': label
+        }
+    return data
+    
 
 #########
 @app.route("/") # criando rotas com decorator
@@ -52,26 +71,76 @@ def dados():
 ##########
 @app.route("/dados/consulta", methods=['GET', 'POST'])
 def consulta():
-    Consultas=['transtorno_respiratoria_com_complicação_sistemica','transtorno_respiratoria_sem_complicação_sistemica']
-    Cidades= ['Jacarei','Sao Jose dos Campos','Taubate']
-    Anos=['2019','2020','2021','2022']
+    options = {
+        'cidades':[
+            {
+                'name': 'Jacareí',
+                'value': 'Jacarei'  
+            },
+            {
+                'name': 'São José dos Campos',
+                'value': 'Sao Jose dos Campos'  
+            },
+            {
+                'name': 'Taubaté',
+                'value': 'Taubate'  
+            },
 
+        ],
+        'consultas':[
+            {
+                'name':'Transtorno respiratória com complicação sistêmica',
+                'value': 'transtorno_respiratoria_com_complicação_sistemica' 
+            },
+            {
+                'name': 'Transtorno respiratória sem complicação sistêmica',
+                'value':  'transtorno_respiratoria_sem_complicação_sistemica'
+            }
+        ],
+        'anos':['2019','2020','2021','2022']
+    }
     cidade = request.form.get('cidade')
     consulta = request.form.get('consulta')
     ano = request.form.get('ano')
 
     if request.method == 'POST':
         data = csv_to_json(consulta, cidade, ano)
-        return render_template("/consulta/consulta.html", Consultas=Consultas, Cidades=Cidades, Anos=Anos, data = data)
+        return render_template("/consulta/consulta.html", data = data, Options = options)
     
-    return render_template("/consulta/consulta.html", Consultas=Consultas, Cidades=Cidades, Anos=Anos)
+    return render_template("/consulta/consulta.html", Options = options, data = [])
 
 ##########
 @app.route("/dados/procedimento", methods=['GET', 'POST'])
 def procedimento():
-    Procedimentos=['cardiopatias', 'aparelho_circulatorio']
-    Cidades= ['Jacarei','Sao Jose dos Campos','Taubate']
-    Anos=['2019','2020','2021','2022']
+
+    options = {
+        'cidades':[
+            {
+                'name': 'Jacareí',
+                'value': 'Jacarei'  
+            },
+            {
+                'name': 'São José dos Campos',
+                'value': 'Sao Jose dos Campos'  
+            },
+            {
+                'name': 'Taubaté',
+                'value': 'Taubate'  
+            },
+
+        ],
+        'procedimentos':[
+            {
+                'name':'Cardiopatias',
+                'value': 'cardiopatias' 
+            },
+            {
+                'name': 'Aparelho Circulatório',
+                'value': 'aparelho_circulatorio'
+            }
+        ],
+        'anos':['2019','2020','2021','2022']
+    }
 
     cidade = request.form.get('cidade')
     procedimento = request.form.get('procedimento')
@@ -79,16 +148,50 @@ def procedimento():
 
     if request.method == 'POST':
         data = csv_to_json(procedimento, cidade, ano)
-        return render_template("/procedimento/procedimento.html", Procedimentos=Procedimentos, Cidades=Cidades, Anos=Anos, data = data)
+        return render_template("/procedimento/procedimento.html", Options = options, data = data)
     
-    return render_template("/procedimento/procedimento.html", Procedimentos=Procedimentos, Cidades=Cidades, Anos=Anos)
+    return render_template("/procedimento/procedimento.html", Options = options, data = [])
 
 ###########
 @app.route("/dados/tratamento", methods=['GET', 'POST'])
 def tratamento():
-    Tratamentos=['internacoes_gerais', 'internacoes_toracicas', 'aparelho_respiratorio', 'trombose']
-    Cidades= ['Jacarei','Sao Jose dos Campos','Taubate']
-    Anos=['2019','2020','2021','2022']
+
+    options = {
+        'cidades':[
+            {
+                'name': 'Jacareí',
+                'value': 'Jacarei'  
+            },
+            {
+                'name': 'São José dos Campos',
+                'value': 'Sao Jose dos Campos'  
+            },
+            {
+                'name': 'Taubaté',
+                'value': 'Taubate'  
+            },
+
+        ],
+        'tratamentos':[
+            {
+                'name':'Internações gerais',
+                'value': 'internacoes_gerais' 
+            },
+            {
+                'name': 'Internações torácicas',
+                'value': 'internacoes_toracicas'
+            },
+            {
+                'name': 'Aparelho respiratório',
+                'value': 'aparelho_respiratorio'
+            },
+            {
+                'name': 'Trombose',
+                'value': 'trombose'
+            }
+        ],
+        'anos':['2019','2020','2021','2022']
+    }
 
     cidade = request.form.get('cidade')
     tratamento = request.form.get('tratamento')
@@ -96,9 +199,9 @@ def tratamento():
 
     if request.method == 'POST':
         data = csv_to_json(tratamento, cidade, ano)
-        return render_template("/tratamento/tratamento.html", Tratamentos=Tratamentos, Cidades=Cidades, Anos=Anos, data = data)
+        return render_template("/tratamento/tratamento.html", Options = options, data = data)
     
-    return render_template("/tratamento/tratamento.html", Tratamentos=Tratamentos, Cidades=Cidades, Anos=Anos)
+    return render_template("/tratamento/tratamento.html", Options = options, data = [])
 
 
 ##########
