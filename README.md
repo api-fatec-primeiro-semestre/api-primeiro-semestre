@@ -28,44 +28,33 @@ O objetivo deste projeto é coletar e analisar dados relacionados à Covid Longa
 
 | Sprint | Item do Backlog |
 |--------|-----------------|
-|01|Eu, enquanto cliente, gostaria de receber um backlog que demonstre os prazos, a estruturação e o que será entregue a cada etapa do projeto.|
 |01|Criação do repositório GIT.|
 |01|Criação e organização do Backlog da Sprint|
 |01|Criação e organização do Product Backlog|
-|01|Eu, enquanto jornalista, gostaria de um conjunto de dados sobre a COVID-19 expostos em forma de gráfico para melhor visualização do progresso das pesquisas|
 |01| Criação de um gráfico dos dados obtidos sobre a incidencia de consultas clinicas por motivos gerais, sintomas gripais e COVID-19 em São José dos Campos.|
-|01|Eu, enquanto cliente, gostaria de ver a estrutura do site como um protótipo para saber como serão estruturadas as informações.|
 |01|Criação do protótipo navegável e visual da página HOME e FIGMA|
 |01|Criação e organização do README.MD|
 |01|Criação do protótipo visual da página de gráficos no FIGMA|
 |01|Criação do Wireframe da página HOME no FIGMA|
 |01|Criação de uma página do protótipo, explicando o projeto|
 |01|Integração do projeto no repositório GIT|
-|02|Eu, enquanto jornalista, gostaria de visualizar os dados inseridos no site do DataSUS das cidades de São José dos Campos, Taubaté e Jacareí.|
 |02|Criação da página "HOME"|
 |02|Criação da página " Dados da Covid"|
 |02|Criação da página "Conheça o Projeto"|
 |02|Criação e organização das tabelas de dados por contaminação, internação e óbitos dos anos de 2019 a 2022|
 |02|Integração do projeto no repositório GIT|
-|03|Eu, enquanto jornalista, gostaria que o site mostrasse os dados em forma de gráfico para melhor visualização.|
 |03|Raspagem de dados das informações sobre a COVID-19 do DataSUS TABNET das cidades de Taubaté, Jacareí e São José dos Campos|
 |03|Implementação das tabelas obtidas na página Web |
 |03|"Criação de gráficos a partir das tabelas obtidas de contaminação, internação e obitos."|
 |03|Criação das páginas Web das tabelas e gráficos obtidos |
-|03|Eu, enquanto jornalista, gostaria de visualizar dados sobre a incidencia de sequelas e efeitos de longa duração no pós alta de COVID-19|
-|03|Rapagem de dados, do SIGTAB, das informações sobre a distribuição de medicamentos nos postos de saúde e farmacia popular nos anos de 2019 a 2022|
-|03|Rapagem de dados das informações obtidas no DataSUS TABNET das visitas ao pronto atendimento e médicos especialistas|
+|03|Raspagem de dados, do SIGTAB, das informações sobre a distribuição de medicamentos nos postos de saúde e farmacia popular nos anos de 2019 a 2022|
+|03|Raspagem de dados das informações obtidas no DataSUS TABNET das visitas ao pronto atendimento e médicos especialistas|
 |03|Criação de tabelas de dados da distribuição de medicamentos e visitas ao pronto atendimento e médicos especialistas, baseadas no Rename 2022, dos anos de 2019 a 2022|
 |03|Implementação das tabelas obtidas na página WEB|
 |03|Integração do projeto no repositório GIT|
-|04|Eu, enquanto jornalista, gostaria de uma comparação dos dados obtidos sobre a COVID-19 com a incidencia dos sintomas nos anos de pandemia.|
-|04|Criação de gráficos dos dados obtidos sobre a distribuição de medicamento nos postos de saúde e farmacia popular, baseados no Rename 2022, dos anos de 2019 a 2022|
 |04|Criação de gráficos dos dados obtidos sobre a visita aos postos de pronto atendimento e médicos especialistas dos anos de 2019 a 2022|
 |04|Implementação dos gráficos obtidos na página WEB|
 |04|Integração do projeto no repositório GIT|
-|04|Eu, enquanto jornalista, gostaria de uma análise precisa sobre a possibilidade da existencia da sindrome pós COVID para criar fatos jornalisticos a partir de fontes cientificas|
-|04|Análise precisa e comparação das curvas dos gráficos gerados através dos dados da COVID-19 e o possível aumento gerado na distribuição de medicamentos utilizados e nos sintomas da síndrome pós-covid, baseados no Rename 2022|
-|04|Análise precisa e comparação das curvas dos gráficos gerados através dos dados da COVID-19 e o possível aumento gerado nas visitas aos postos de pronto atendimento e médicos especialistas devido aos sintomas da síndrome pós-covid, baseados no Rename 2022|
 |04|Implementação da conclusão da análise realizada e a possivel existencia da Sindrome pós-covid no site WEB|
 |04|Integração final do projeto no repositório GIT|
 
