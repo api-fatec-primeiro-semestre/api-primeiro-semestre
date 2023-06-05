@@ -47,23 +47,23 @@
 
             <div class="col-md-3 form-group">
                 <select class="form-control" name='cidade' id="cidade">
-                    {%for cidade in Cidades%}
-                        <option value={{cidade}}>{{cidade}}</option>
-                    {%endfor%}
+                    {% for cidade in Options['cidades'] %}
+                        <option value={{cidade.value}}>{{cidade.name}}</option>
+                    {% endfor %}
                 </select>
             </div>
 
             <div class="col-md-3 form-group">
                 <select class="form-control" name='consulta' id="consulta">
-                    {%for consulta in Consultas%}
-                        <option value={{consulta}}>{{consulta}}</option>
-                    {%endfor%}
+                    {% for consulta in Options['consultas'] %}
+                        <option value={{consulta.value}}>{{consulta.name}}</option>
+                    {% endfor %} 
                 </select>
             </div>
 
             <div class="col-md-2 form-group">
                 <select class="form-control" name='ano' id="ano">
-                    {%for ano in Anos%}
+                    {%for ano in Options['anos']%}
                         <option value={{ano}}>{{ano}}</option>
                     {%endfor%}
                 </select>
@@ -74,6 +74,7 @@
         </form>
         <canvas id="lineChart" width="900" height="400"></canvas>
         <script>
+            
             var ctx = document.getElementById('lineChart').getContext("2d");
             var lineChart = new Chart(ctx,{
                 type: 'line',
@@ -82,11 +83,19 @@
                     datasets: [
                         {
                             label: $('#consulta').val(),
-                            data: {{data | safe}},
+                            data: {{data.grafico | safe}},
                             fill: false,
                             borderColor: "#ce2a96ff",
                             lineTension: 0.1
-                        }
+                        },
+                        {
+                            label: 'Casos de Covid',
+                            data: {{data.covid | safe}},
+                            fill: false,
+                            borderColor: "#00d2adff",
+                            lineTension: 0.1
+                        },
+                        
                     ]
                 },
                 options: {
