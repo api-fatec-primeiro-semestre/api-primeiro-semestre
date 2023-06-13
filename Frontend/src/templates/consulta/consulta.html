@@ -72,22 +72,36 @@
             <button type="submit" class="btn btn-primary">Buscar</button>
 
         </form>
-        <canvas id="lineChart" width="900" height="400"></canvas>
+        <canvas id="graficoConsulta" width="900" height="400"></canvas>
+        <canvas id="graficoCovid" width="900" height="400"></canvas>
         <script>
             
-            var ctx = document.getElementById('lineChart').getContext("2d");
-            var lineChart = new Chart(ctx,{
+            var consultaChart = document.getElementById('graficoConsulta').getContext("2d");
+            var graficoConsulta = new Chart(consultaChart,{
                 type: 'line',
                 data:{
                     labels: ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ' ],
                     datasets: [
                         {
-                            label: $('#consulta').val(),
+                            label:{{Consulta | safe}},
                             data: {{data.grafico | safe}},
                             fill: false,
                             borderColor: "#ce2a96ff",
                             lineTension: 0.1
                         },
+                    ]
+                },
+                options: {
+                    responsive: false
+                }
+            });
+
+            var covidChart = document.getElementById('graficoCovid').getContext("2d");
+            var graficoCovid = new Chart(covidChart,{
+                type: 'line',
+                data:{
+                    labels: ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ' ],
+                    datasets: [
                         {
                             label: 'Casos de Covid',
                             data: {{data.covid | safe}},
