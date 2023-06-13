@@ -105,9 +105,11 @@ def consulta():
 
     if request.method == 'POST':
         data = csv_to_json(consulta, cidade, ano)
-        return render_template("/consulta/consulta.html", data = data, Options = options)
+        teste = consulta.replace('_', ' ')
+        teste2 = json.dumps(teste)
+        return render_template("/consulta/consulta.html", data = data, Options = options, Consulta=teste2)
     
-    return render_template("/consulta/consulta.html", Options = options, data = [])
+    return render_template("/consulta/consulta.html", Options = options, data = [], consulta=consulta)
 
 ##########
 @app.route("/dados/procedimento", methods=['GET', 'POST'])
@@ -145,10 +147,12 @@ def procedimento():
     cidade = request.form.get('cidade')
     procedimento = request.form.get('procedimento')
     ano = request.form.get('ano')
-
+    
     if request.method == 'POST':
         data = csv_to_json(procedimento, cidade, ano)
-        return render_template("/procedimento/procedimento.html", Options = options, data = data)
+        teste = procedimento.replace('_', ' ')
+        teste2 = json.dumps(teste)
+        return render_template("/procedimento/procedimento.html", Options = options, data = data, Procedimento=teste2)
     
     return render_template("/procedimento/procedimento.html", Options = options, data = [])
 
@@ -196,10 +200,12 @@ def tratamento():
     cidade = request.form.get('cidade')
     tratamento = request.form.get('tratamento')
     ano = request.form.get('ano')
-
+    
     if request.method == 'POST':
         data = csv_to_json(tratamento, cidade, ano)
-        return render_template("/tratamento/tratamento.html", Options = options, data = data)
+        teste = tratamento.replace('_', ' ')
+        teste2 = json.dumps(teste)
+        return render_template("/tratamento/tratamento.html", Options = options, data = data, Tratamento = teste2)
     
     return render_template("/tratamento/tratamento.html", Options = options, data = [])
 
