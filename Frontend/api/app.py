@@ -3,24 +3,21 @@ import numpy as np
 from flask import Flask, render_template, request
 import pandas as pd
 
-app = Flask("__name__")
+app = Flask(__name__)
 
 # Configuração do Jinja
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
-# Configurar o caminho para a pasta de templates
-app.template_folder = 'src/templates'
-
 # Configurar o caminho para a pasta de arquivos estáticos
-app.static_folder = 'src/static'
+app.static_folder = 'static'
 
 buttonType = ''
 cidade = ''
 data = []
 
 def csv_to_json(arquivo_csv, cidade, ano):
-    csv_path = app.static_folder + '\\arquivos\\'+ano+'\\'+arquivo_csv+'.csv'
-    covid_path = app.static_folder + '\\arquivos\\'+ano+'\\''casos_de_covid.csv' 
+    csv_path = app.static_folder + '/arquivos/'+ano+'/'+arquivo_csv+'.csv'
+    covid_path = app.static_folder + '/arquivos/'+ano+'/''casos_de_covid.csv' 
 
     df = pd.read_csv(csv_path)
     covid_df = pd.read_csv(covid_path)
@@ -215,4 +212,7 @@ def tratamento():
 def quem_somos():
     return render_template("/quem_somos/quem_somos.html")
 
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
