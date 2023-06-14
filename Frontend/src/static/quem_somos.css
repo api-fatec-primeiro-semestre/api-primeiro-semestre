@@ -1,241 +1,166 @@
-.Proposta_Projeto {
- margin: 10%
+
+
+.Proposta_Projeto{
+  padding-bottom: 8%;
+  width: 100%;
+}
+
+.inicial {
+  background-image:linear-gradient(180deg, #00D2AD 0%, #C5AAFF 100%);
+  padding: 5%;
 }
 
 .Titulo {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
   width: 100%;
-  background-color: aliceblue;
- margin: 1%
+  margin: 1%;
 }
 
 .Titulo h1 {
-  text-align: center;
   font-size: 300%;
-  padding: 4%;
-  border-width: 15px;
-  border-radius: 25%;
-  border-color: #00D2AD;
-  border-style: outset;
-  width: 70%;
+  margin-left: 2%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-  
-.introdução p{
-  text-align: center;
-  font-size: 150%;
-  margin: 3%;
+.Titulo a {
+  font-size: 100%;
+  margin-left: 4%;
+  color: black;
+  padding: 2px;
 }
 
-.texto {padding-left: 15%;}
 
-.texto p {
-  border-radius: 15%;
-  width: 75%;
-  padding: 2%;
-  background-color: #d0d0d0;
-  margin-bottom: 20%;
+.sinopse p {
+    display: flex;
+    margin-left:20%;
+    border-radius: 50px;
+    padding: 4%;
+    background-color: #00D2AD;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    justify-content: flex-end;
+    font-size: 125%;
+    border-style: solid;
+    border-color: #01ac8c;
 }
 
-.jornal_falando {
+
+
+ 
+.jrnlstcmnt_falando {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
   background-color: #00D2AD;
   margin-top: 4%; 
   size: 5px; 
   border-radius: 50px; 
-  width: 25%; 
-  min-width: 75%;
-  margin-left: 9%;
-  padding: 2%;
-  position: absolute;
-  top:135%;
-  left: 0%;
+  width: 75%;
+  margin-left: 12%;
+  padding: 1%;
+  border-width: 5%;
+  border-style: solid;
+  border-color: #01ac8c;
+}
+
+.jrnlstcmnt_falando h2 {
+  margin: 3%;
+  background-color: #00D2AD;
+  margin-top: 4%; 
+  border-radius: 50px; 
+  width:90%;
+  padding: 1%;
   border-width: 5%;
   border-style: solid;
   border-color: #01ac8c;
 }
 
 
-
-.texto_jornal {
-  margin-left: 5%;
-  background-image: linear-gradient(180deg, #00D2AD 0%, #C5AAFF 100%);;
-   border-radius: 25%;
-  width: 90%;
-  padding: 4%
+.jrnlstcmnt_falando p {
+  margin: 3%;
 }
 
 .Metas {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  background-image: linear-gradient(180deg, #FFC076 0%, #FF9999 100%);
-  padding: 4%;
+  padding-bottom: 40%;
   width: 100%;
-  border-style: solid;
-  border-color: #FF9999;
+  background-image:linear-gradient(180deg, #C5AAFF 0%, #00D2AD 100%);background-color: #01ac8c;
+  padding: 2%;
 }
 
 .metasprojeto{
   background-color: #ffffff;
    text-align:center; 
-   margin-top: 2%; 
-   margin-left: 20%;
-   margin-right: 20%; 
-   padding-bottom: 1%; 
-   padding-top: 1%; 
-   border-radius: 30px;
    font-size: 100%;
+   width: 60%;
+   border-color: #01ac8c;
+   border-width: 10px;
+   border-style: double;
+  margin-top: 4%; 
+  size: 5px; 
+  border-radius: 50px; 
+  width: 75%;
+  padding: 1%;
+  border-width: 5%;
   }
 
-.titulo-meta {
+.Titulo-meta {
   background-color: #ffffff;
   font-size: 200%;
   text-align: center;
   padding: 5%;
-  border-radius: 15% ;
-  margin-left: 0%;
- 
-}
-
-.quem_somos {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-rendering: auto;
-  font-size: 2vw;
-}
-
-.titulos {
-  width: 40%;
-}
-
-.titulos h1{
- font-size: 300%;
- text-align: center;
- background-color: aliceblue;
- padding: 10%;
- border-width: 10px;
- border-style: inset;
- border-radius: 15%;
- border-color: #00D2AD;
- margin: 5%;
- margin-top: 25%;
-}
-
-.titulos h2 {
-  font-size: 200%;
-  text-align: center;
-  background-image: linear-gradient(180deg, #00D2AD 0%, #C5AAFF 100%);;
-  padding: 10%;
-  border-radius: 35% ;
-
-}
-
-.titulos h3 {
-  width: 100%;
-  font-size: 200%;
-  text-align: center;
-  background-color: #ffffff;
-  background-color: #00D2AD;
-  border-color: #00b392;
-  border-width: 5px;
-  border-style: double;
-  border-radius: 190% ;
-  padding: 10%;
-  margin: 5%;
-}
-
-.cargos {
-  width: 80%;
-  margin: 5%;
-  display: flex;
-  flex-direction: row;
-  background-color: #d0d0d0;
-  border-radius: 30%;
-
-}
-
-.cargos img {
-  width: 20%;
-  height: 30%;
-  border-width: 10px;
-  border-style: inset;
-  border-radius: 25%;
-  border-color: #00D2AD;
-}
-
-.cargos p {
-  text-align: center;
-  width: 60%;
-  font-size:150%;
-  padding-top: 4%;
-}
-
-.quem_somos a {
-  width: 60%;
-  font-size: 100%;
-}
-
-.dev_team {
-  width: 75%;
-  display: flex;
-  background-color: #d0d0d0;
-  border-radius: 15%;
-  padding: 5%;
-  margin-top: 5%;
-
-}
-
-.column {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 50%;
-  padding: 2%;
-}
-
-.dev {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-  margin: 2%;
-}
-
-.dev img {
-  width: 40%;
-  border-radius: 10%;
-  border-width: 5px;
-  border-style: inset;
-  border-color: #00D2AD;
- margin: 1%;
-}
-
-.dev p {
-  width: 50%;
-  font-size: 100%;
-  padding-bottom: 7%;
-}
-
-.contato {
-  width: 90%;
-  height: 90%;
-  margin-top: 5%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.contato img {
-  width: 110%;
-  padding: 5%;
+  border-radius: 50px ;
   border-color: #01ac8c;
   border-width: 10px;
   border-style: double;
-  border-radius: 15%;
+}
+
+.Dev-Team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #011E36;
+  padding: 2%;
+  margin-bottom: 1%;
 
 }
+
+.Titulo-DT h1 {
+  font-size: 250%;
+  text-align: center;
+  width: 90%;
+  padding: 5%;
+  color: white;
+}
+
+.Team {
+  border-color: #01ac8c;
+  border-style: solid;
+  padding: 5%;
+  margin: 2%;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 60%;
+}
+
+.Team img {
+  width: 40%;
+
+}
+
+.qr-code a {
+  margin-left: 45%;
+  width: 45%;
+  border-radius: 15%;
+}
+
