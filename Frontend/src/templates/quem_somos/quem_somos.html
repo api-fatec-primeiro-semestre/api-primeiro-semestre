@@ -3,48 +3,88 @@
 {% extends "index.html"%}
 {% block conteudo %}
 
-<div class="Titulo">
+<div class="Proposta_Projeto">
+        <div class="inicial">
 
-    <h1><b>Proposta do Projeto</b></h1> 
+            <div class="Titulo">
 
-</div>
-
-<div class="Poposta_Projeto">
-
-     <div class="introdução">
-
-        <p>
-             Com a pandemia afetando severamente o Brasil, um país que possui um sistema universal de saúde, é provavel que o cenario pós-pandemia acarrete em aumento significativo no atendimento, procedimentos, tratamentos e uso de medicamentos relacionados aos casos de covid longa.</strong>
-        </p>
-            
-        <div class="texto">
+                <h1><b> <strong> Proposta do Projeto </strong> </b></h1>
                 
-            <p>
-              No entanto, existem poucos estudos disponiveis para mensurar o impacto disso no Sistema Único de Saúde em diferentes niveis administrativos. Portanto, a análise aprofundada dos dados do Datasus(Tabnet) pode fornecer informações relevantes sobre a sobrecarga do sistema de saúde nas esferas municipais, estaduais e federais durante o período pós-pandemia.
-            </p>
-                
+                <a  href="#Introdução">> Introdução</a>
+                <a  href="#Metas">> Metas</a>
+                <a  href="#Dev-Team">> Equipe de Desenvolvimento</a>
+    
+    
+            </div>
+    
+            <div class="sinopse">
+                    
+                <p>
+                    <b> 
+                        O Brasil, um dos países mais afetados pela pandemia, espera-se que enfrente um aumento significativo no número de atendimentos, procedimentos, tratamentos e uso de medicamentos relacionados à Covid longa no período pós-pandemia.
+                    </b>
+                </p>
+                    
+            </div>
+    
+            <div class="sinopse" style="margin-left: -15%;">
+    
+                <p>
+                    <b>
+                        
+                        No entanto, ainda há uma falta de estudos que possam medir esse impacto no Sistema Único de Saúde em níveis municipais, estaduais e federal. Portanto, a análise dos dados do Datasus (Tabnet) pode fornecer informações relevantes sobre a carga do pós-pandemia no sistema de saúde.
+                    </b>
+                </p>
+    
+            </div>
+
         </div>
-            
-    </div>
 
-    <div class="jornal_falando">
-
-        <h2>Jornalisticamente falando</h2>
-
-    </div>
-
-    <div class="texto_jornal">
-
-        <p>
-            <strong>Com base na área de atuação da Rede Vanguarda, seria possível tabular dados das principais cidades do Vale do Paraíba, como São José dos Campos, Jacareí e Taubaté, o que permitiria a produção de algumas reportagens. Embora seja comum que os dados sejam mais difíceis de encontrar em âmbito regional, informações em âmbito estadual já seriam suficientes para dar origem a diversas matérias. Além disso, dados nacionais também poderiam ser utilizados, sendo encaminhados para jornais em todo país.</strong>
-        </p>
-
-    </div>
+        <hr>
+        
+        <div class="Introducão" id="Introdução">
 
 
-    <div class="Metas">
+            <div class="texto">
+                <p>
+                    A pandemia do COVID-19 sobrecarregou o sistema de saúde em todo o país, resultando em uma demanda intensa por serviços médicos, leitos hospitalares e recursos relacionados ao tratamento da doença. Esse aumento repentino e significativo no número de casos e na necessidade de atendimento médico teve um impacto direto nas capacidades dos hospitais e nas equipes de saúde.
+                    <br><br>
+                    Além disso, a Covid Longa, uma condição em que os sintomas da doença persistem por um longo período após a infecção inicial, tem se mostrado uma realidade para muitos pacientes. Esses indivíduos podem enfrentar complicações e efeitos colaterais a longo prazo, como fadiga persistente, dificuldades respiratórias, dor crônica, problemas cardíacos e cognitivos, entre outros. 
+                    <br>
+                    Como resultado, é esperado que muitas pessoas necessitem de cuidados contínuos e tratamentos especializados após a recuperação inicial da doença.
+                    <br><br>
+                    O sistema universal de saúde do Brasil, embora seja uma conquista importante, pode encontrar desafios consideráveis diante desse aumento na demanda. Recursos financeiros, infraestrutura, pessoal médico qualificado e acesso a medicamentos podem se tornar pontos críticos em um cenário pós-pandemia, especialmente se não forem tomadas medidas adequadas para fortalecer e ampliar o sistema de saúde.
+                    <br>
+                    Com a pandemia afetando severamente o Brasil, um país que possui um sistema universal de saúde, é provável que o cenário pós-pandemia resulte em um aumento significativo no atendimento, procedimentos, tratamentos e uso de medicamentos relacionados aos casos de Covid Longa. Isso se deve a uma série de fatores.
+    
+                </p>
+    
+            </div>
+               
+            <div class="jrnlstcmnt_falando">
+    
+                <h2>Jornalisticamente falando</h2>
+    
+                <p>
+                    <strong>Com base na área de atuação da Rede Vanguarda, seria possível tabular dados das principais cidades do Vale do Paraíba, como São José dos Campos, Jacareí e Taubaté, o que permitiria a produção de algumas reportagens. Embora seja comum que os dados sejam mais difíceis de encontrar em âmbito regional, informações em âmbito estadual já seriam suficientes para dar origem a diversas matérias. Além disso, dados nacionais também poderiam ser utilizados, sendo encaminhados para jornais em todo país.</strong>
+                </p>
+    
+            </div>
 
-        <div class="titulo-meta">
+        </div>
+
+
+
+
+        </div>
+
+
+
+        <hr>
+
+    <div class="Metas" id="Metas">
+
+        <div class="Titulo-meta">
             <h2> <strong> Metas do Projeto </strong> </h2>
         </div>    
 
@@ -63,139 +103,30 @@
     </div>    
 
 
-</div>
-
-  
-<div class="quem_somos">
-
+    <hr>
+    <div class="Dev-Team" id="Dev-Team">
     
-    <div class="titulos">
-        <h1>Quem Somos?</h1>
-    </div>
-
-    <div class="cargos">
-        <img src="{{ url_for ( 'static', filename='img/lilian.jpg') }}" alt="P.O. do Projeto">
-
-        <p>
-            Product Owner: Lilian Ferrão <br>
-        <a href="https://github.com/lilianferrao" target="_blank">Acesse o Github do desenvolvedor</a>
-        </p>
-    </div>
-
-    <div class="cargos">
-        <p>
-            Scrum Master: Rodrigo Augusto <br>
-        <a href="https://github.com/rodrigoaslima" target="_blank">Acesse o Github do desenvolvedor</a>
-        </p>
-
-        <img src="{{ url_for ( 'static', filename='img/rodrigo.jpeg' ) }}" alt="P.O. do Projeto">
-    </div>
-
-
-    <div class="titulos">
-        <h2>Development Team</h2>
-    </div>
-
-    <div class="dev_team">
-
-        <div class="column">
-
-            <div class="dev">
-                <p>
-                    Bruno <br>
-                    <a href="https://github.com/BrunoFerCam" target="_blank">Acesse o Github do desenvolvedor</a>
-                </p>
-
-                    <img src="{{ url_for ( 'static', filename='img/bruno.jpeg' ) }}" alt="Dev_Bruno">
-            </div>
-
-            <div class="dev">
-                <p>
-                    Douglas <br>
-                    <a href="https://github.com/DouglasMedeiros1" target="_blank">Acesse o Github do desenvolvedor</a>
-                </p>
-
-                    <img src="{{ url_for ( 'static', filename='img/douglas.jpeg' ) }}" alt="Dev_Bruno">
-            </div>
-
-            <div class="dev">
-                <p>
-                    Maria <br>
-                    <a href="https://github.com/MariaGabrielaMello" target="_blank">Acesse o Github do desenvolvedor</a>
-                </p>
-
-                    <img src="{{ url_for ( 'static', filename='img/gabi.jpeg' ) }}" alt="Dev_Bruno">
-            </div>
-
-        </div>
-
-
-        <div class="column">
-
-            <div class="dev">
-                <p>
-                    Katiane <br>
-                    <a href="https://github.com/Katianefatec" target="_blank">Acesse o Github do desenvolvedor</a>
-                </p>
-
-                <img src="{{ url_for ( 'static', filename='img/katiane.jpeg' ) }}" alt="Dev_Bruno">
-            </div>
-
-            <div class="dev">
-                <p>
-                    Marcus <br>
-                    <a href="https://github.com/marcusvbe" target="_blank">Acesse o Github do desenvolvedor</a>
-                </p>
-
-                    <img src="{{ url_for ( 'static', filename='img/marcus.jpeg' ) }}" alt="Dev_Bruno">
-            </div>
-
-            <div class="dev">
-                <p>
-                    Vitor <br>
-                    <a href="https://github.com/haikizinho" target="_blank">Acesse o Github do desenvolvedor</a>
-                </p>
-
-                <img src="{{ url_for ( 'static', filename='img/vitor.jpeg' ) }}" alt="Dev_Bruno">
-            </div>
-
-        </div>
-
-
-    </div>
-
-
-    <div class="contato">
-        <div class="titulos">
-            <h3>Github do Projeto</h3>
-            <a href="https://github.com/api-fatec-primeiro-semestre/api-primeiro-semestre" target="_blank"><img src="{{ url_for ( 'static', filename='img/qr-code.png' ) }}" alt="Qrcode do Github"></a>
-            <img src="{{ url_for ( 'static', filename='img/Verde Azul e Azul-escuro Moderno Gradiente Saúde e Farmacêutica Logotipo (6).png' ) }}" alt="Logotipo da Equipe">
-        </div>
+        <div class="Titulo-DT">
     
+            <h1>
+                Equipe de Desenvolvedores
+            </h1>
+    
+        </div>
         
-    </div>
+        <div class="Team">
+    
+            <img src="{{ url_for ( 'static', filename='img/Verde Azul e Azul-escuro Moderno Gradiente Saúde e Farmacêutica Logotipo (6).png' ) }}" alt="Logotipo da Equipe">
+            <div class="qr-code">
+    
+                <a href="https://github.com/api-fatec-primeiro-semestre/api-primeiro-semestre" target="_blank"><img src="{{ url_for ( 'static', filename='img/qr-code.png' ) }}" alt="Qrcode do Github"></a>
+                <a href="https://github.com/api-fatec-primeiro-semestre/api-primeiro-semestre">Link do Github</a>
+            </div>
+        </div>
 
-</div>
+    
+
+
 
 {% endblock %}
-
-
-
-
-       
-
-
-
-
-
-
-    
-    
-
-        
-        </div>
-    
-    </div>
-
-
 
